@@ -8,23 +8,21 @@
 #include <pthread.h>
 #include <vector>
 #include <unistd.h>
+#include <arpa/inet.h>
 
 using namespace std;
 
-class SocketServer{
+
+class SocketClient{
 public:
-    SocketServer();
-    void run();
+    SocketClient();
+    void conect();
     void setMsj(const char* msn);
 
 private:
     int descriptor;
     sockaddr_in info;
-    vector<int> clients;
-
-    bool create_socket();
-    bool bind_kernell();
-    static void* clientController(void* obj);
+    static void* Controller(void* obj);
 
 };
 
