@@ -1,4 +1,7 @@
 #include "SocketServer.h"
+#include "Game.h"
+#include "State_Menu.h"
+#include "string.h"
 
 using namespace std;
 
@@ -12,7 +15,7 @@ void * serverRun(void *){
     pthread_exit(NULL);
 }
 
-int main(){
+int main(int argc, char **argv){
     server = new SocketServer;
     pthread_t hiloS;
     pthread_create(&hiloS, 0, serverRun, NULL);
@@ -28,6 +31,35 @@ int main(){
         }
         server->setMsj(json.c_str());
     }
+
+    //Llamando al juego base
+
+    struct Game_Conf conf = {
+            //Argumentos
+            .argc = argc,
+            .argv = argv,
+
+            //Titulo pantalla
+            .title = "Crazy_Breakout",
+
+            //Tamaño de la pantalla
+            .width = 800,
+            .height = 600,
+
+            //Cuadros por segundo (FPS)
+            .framerate = 60,
+
+            //Pantalla completa
+            .fullscreen = false,
+
+            //Usar un buffer adicional
+            .buffer = true,
+    };
+
+    if (Game_Init(&conf)){
+        Game_Run(STATE_MENU); //Empezando en el menu
+    }
+
     delete server;
 
     return 0; 
