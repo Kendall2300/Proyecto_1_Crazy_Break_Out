@@ -9,6 +9,7 @@ include_directories(Source_Files)
 add_executable(Server
         Source_Files/ball.cpp
         Source_Files/ball.hpp
+        Source_Files/breakout.cpp
         Source_Files/brick.cpp
         Source_Files/brick.hpp
         Source_Files/force.cpp
@@ -24,3 +25,11 @@ add_executable(Server
         Source_Files/SocketServer.h
         Source_Files/wall.cpp
         Source_Files/wall.hpp)
+
+find_package(OpenGL REQUIRED COMPONENTS OpenGL)
+find_package(GLUT REQUIRED)
+
+add_dependencies(Server OpenGL::OpenGL)
+include_directories(${GLUT_INCLUDE_DIRS} )
+
+target_link_libraries(Server OpenGL::OpenGL ${GLUT_LIBRARY} )
