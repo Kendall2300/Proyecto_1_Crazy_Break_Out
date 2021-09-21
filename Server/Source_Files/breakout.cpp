@@ -1,4 +1,4 @@
-#include "painter.hpp"
+/*#include "painter.hpp"
 #include "wall.hpp"
 #include "game.hpp"
 #include <GL/glut.h>
@@ -44,4 +44,4 @@ int main(int argc, char **argv)
   timer();
 
   glutMainLoop();
-}
+}*/

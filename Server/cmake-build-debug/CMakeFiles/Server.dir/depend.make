@@ -17,7 +17,6 @@ CMakeFiles/Server.dir/Source_Files/breakout.cpp.o: \
  ../Source_Files/brick.hpp \
  ../Source_Files/force.hpp \
  ../Source_Files/game.hpp \
- ../Source_Files/painter.hpp \
  ../Source_Files/pedal.hpp \
  ../Source_Files/wall.hpp
 CMakeFiles/Server.dir/Source_Files/brick.cpp.o: \
@@ -39,6 +38,7 @@ CMakeFiles/Server.dir/Source_Files/game.cpp.o: \
  ../Source_Files/pedal.hpp \
  ../Source_Files/wall.hpp
 CMakeFiles/Server.dir/Source_Files/main.cpp.o: \
+ ../Source_Files/SocketServer.h \
  ../Source_Files/ball.hpp \
  ../Source_Files/brick.hpp \
  ../Source_Files/force.hpp \

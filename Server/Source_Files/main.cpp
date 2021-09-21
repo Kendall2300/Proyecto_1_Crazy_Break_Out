@@ -1,4 +1,4 @@
-/*#include "SocketServer.h"
+#include "SocketServer.h"
 #include "string.h"
 #include "painter.hpp"
 #include "wall.hpp"
@@ -80,4 +80,4 @@ int main(int argc, char **argv){
     delete server;
 
     return 0; 
-}*/
+}
