@@ -1,3 +1,0 @@
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles/Server.dir
