@@ -1,7 +1,35 @@
 #include "SocketServer.h"
 #include "string.h"
+#include "painter.hpp"
+#include "wall.hpp"
+#include "game.hpp"
+#include <GL/glut.h>
+
 
 using namespace std;
+
+Game game;
+void display()
+{
+    glClear(GL_COLOR_BUFFER_BIT);
+    Painter p;
+    game.draw(p);
+    glutSwapBuffers();
+}
+
+void timer(int = 0)
+{
+    for (int i = 0; i < 1.0 / 25 / Ball::DT; ++i)
+        game.tick();
+    display();
+    glutTimerFunc(1000 / 25, timer, 0);
+}
+
+void mouse(int x, int)
+{
+    game.setX(x);
+}
+
 
 SocketServer* server;
 void * serverRun(void *){
@@ -13,7 +41,7 @@ void * serverRun(void *){
     pthread_exit(NULL);
 }
 
-int main(){
+int main(int argc, char **argv){
     server = new SocketServer;
     pthread_t hiloS;
     pthread_create(&hiloS, 0, serverRun, NULL);
@@ -32,31 +60,22 @@ int main(){
 
     //Llamando al juego base
 
-    /*struct Game_Conf conf = {
-            //Argumentos
-            .argc = argc,
-            .argv = argv,
+    glutInit(&argc, argv);
+    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
+    glutInitWindowSize(
+            Wall::WIDTH,
+            Wall::HEIGHT);
+    glutInitWindowPosition(100, 780);
+    glutCreateWindow("Breakout");
+    glClearColor(0, 0, 0, 1.0);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    glOrtho(0, Wall::WIDTH, Wall::HEIGHT, 0, -1.0, 1.0);
+    glutDisplayFunc(display);
+    glutPassiveMotionFunc(mouse);
+    timer();
 
-            //Titulo pantalla
-            .title = "Crazy_Breakout",
-
-            //Tamaño de la pantalla
-            .width = 800,
-            .height = 600,
-
-            //Cuadros por segundo (FPS)
-            .framerate = 60,
-
-            //Pantalla completa
-            .fullscreen = false,
-
-            //Usar un buffer adicional
-            .buffer = true,
-    };
-
-    if (Game_Init(&conf)){
-        Game_Run(STATE_MENU); //Empezando en el menu
-    }*/
+    glutMainLoop();
 
     delete server;
 

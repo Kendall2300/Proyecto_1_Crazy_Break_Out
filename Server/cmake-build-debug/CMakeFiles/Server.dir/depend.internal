@@ -11,15 +11,6 @@ CMakeFiles/Server.dir/Source_Files/ball.cpp.o
  /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
  /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.hpp
  /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/wall.hpp
-CMakeFiles/Server.dir/Source_Files/breakout.cpp.o
- /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.hpp
- /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/breakout.cpp
- /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/brick.hpp
- /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
- /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/game.hpp
- /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.hpp
- /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/pedal.hpp
- /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/wall.hpp
 CMakeFiles/Server.dir/Source_Files/brick.cpp.o
  /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.hpp
  /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/brick.cpp
@@ -40,7 +31,14 @@ CMakeFiles/Server.dir/Source_Files/game.cpp.o
  /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/wall.hpp
 CMakeFiles/Server.dir/Source_Files/main.cpp.o
  /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/SocketServer.h
+ /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.hpp
+ /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/brick.hpp
+ /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
+ /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/game.hpp
  /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/main.cpp
+ /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.hpp
+ /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/pedal.hpp
+ /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/wall.hpp
 CMakeFiles/Server.dir/Source_Files/painter.cpp.o
  /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.cpp
  /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.hpp
