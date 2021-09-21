@@ -6,7 +6,7 @@ class Painter;
 class Ball
 {
 public:
-  static const float DT = 0.001;
+  constexpr static const float DT = 0.001;
   Ball();
   void draw(Painter &) const;
   float x() const { return x_; }

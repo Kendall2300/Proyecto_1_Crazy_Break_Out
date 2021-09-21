@@ -1,6 +1,4 @@
 #include "SocketServer.h"
-#include "Game.h"
-#include "State_Menu.h"
 #include "string.h"
 
 using namespace std;
@@ -15,7 +13,7 @@ void * serverRun(void *){
     pthread_exit(NULL);
 }
 
-int main(int argc, char **argv){
+int main(){
     server = new SocketServer;
     pthread_t hiloS;
     pthread_create(&hiloS, 0, serverRun, NULL);
