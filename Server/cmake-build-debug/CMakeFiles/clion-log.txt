@@ -12,14 +12,5 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Configuring done
-CMake Error at CMakeLists.txt:10 (add_executable):
-  Cannot find source file:
-
-    Source_Files/Ball.cpp
-
-
-CMake Error at CMakeLists.txt:10 (add_executable):
-  No SOURCES given to target: Server
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done
+-- Build files have been written to: /home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug
