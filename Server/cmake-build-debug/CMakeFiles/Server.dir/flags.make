@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/." -I"/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files"
+CXX_INCLUDES = -I/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/. -I/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Proyecto_1_Crazy_Break_Out/Server/Source_Files
 
 CXX_FLAGS = -pthread -g -std=gnu++14
 
