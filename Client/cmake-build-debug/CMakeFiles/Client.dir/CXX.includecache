@@ -30,6 +30,16 @@ arpa/inet.h
 force.hpp
 /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/force.hpp
 
+/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/breakout.cpp
+wall.hpp
+/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/wall.hpp
+game.hpp
+/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/game.hpp
+GL/glut.h
+-
+cstring
+/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/cstring
+
 /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/brick.hpp
 force.hpp
 /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/force.hpp

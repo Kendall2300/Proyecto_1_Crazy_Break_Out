@@ -24,12 +24,12 @@ void first_menu(){
     }
     glRasterPos3f(300,550,0);
     char To_Exit[]="Para salir del juego presiona la tecla: K ";
-    for(int j=0; j < strlen(Game_Tittle); j++){
+    for(int j=0; j < strlen(To_Exit); j++){
         glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, To_Exit[j]);
     }
     glRasterPos3f(300,275,0);
     char To_Start[]="Para empezar presiona la tecla: X ";
-    for(int t=0; t < strlen(Game_Tittle); t++){
+    for(int t=0; t < strlen(To_Start); t++){
         glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, To_Start[t]);
     }
     glutSwapBuffers();
@@ -53,7 +53,7 @@ void keys(unsigned char key, int,int){
         timer();
     }
     else if(key=='k'){
-        exit(1);
+        exit(0);
     }
     glutPostRedisplay();
 }
