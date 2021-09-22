@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/164/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/164/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client
+CMAKE_SOURCE_DIR = "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Client.dir/depend.make
@@ -66,168 +66,45 @@ include CMakeFiles/Client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Client.dir/flags.make
 
-CMakeFiles/Client.dir/Source_Files/ball.cpp.o: CMakeFiles/Client.dir/flags.make
-CMakeFiles/Client.dir/Source_Files/ball.cpp.o: ../Source_Files/ball.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Client.dir/Source_Files/ball.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/Source_Files/ball.cpp.o -c /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/ball.cpp
-
-CMakeFiles/Client.dir/Source_Files/ball.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/Source_Files/ball.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/ball.cpp > CMakeFiles/Client.dir/Source_Files/ball.cpp.i
-
-CMakeFiles/Client.dir/Source_Files/ball.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/Source_Files/ball.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/ball.cpp -o CMakeFiles/Client.dir/Source_Files/ball.cpp.s
-
-CMakeFiles/Client.dir/Source_Files/breakout.cpp.o: CMakeFiles/Client.dir/flags.make
-CMakeFiles/Client.dir/Source_Files/breakout.cpp.o: ../Source_Files/breakout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Client.dir/Source_Files/breakout.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/Source_Files/breakout.cpp.o -c /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/breakout.cpp
-
-CMakeFiles/Client.dir/Source_Files/breakout.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/Source_Files/breakout.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/breakout.cpp > CMakeFiles/Client.dir/Source_Files/breakout.cpp.i
-
-CMakeFiles/Client.dir/Source_Files/breakout.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/Source_Files/breakout.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/breakout.cpp -o CMakeFiles/Client.dir/Source_Files/breakout.cpp.s
-
-CMakeFiles/Client.dir/Source_Files/brick.cpp.o: CMakeFiles/Client.dir/flags.make
-CMakeFiles/Client.dir/Source_Files/brick.cpp.o: ../Source_Files/brick.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Client.dir/Source_Files/brick.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/Source_Files/brick.cpp.o -c /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/brick.cpp
-
-CMakeFiles/Client.dir/Source_Files/brick.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/Source_Files/brick.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/brick.cpp > CMakeFiles/Client.dir/Source_Files/brick.cpp.i
-
-CMakeFiles/Client.dir/Source_Files/brick.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/Source_Files/brick.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/brick.cpp -o CMakeFiles/Client.dir/Source_Files/brick.cpp.s
-
-CMakeFiles/Client.dir/Source_Files/force.cpp.o: CMakeFiles/Client.dir/flags.make
-CMakeFiles/Client.dir/Source_Files/force.cpp.o: ../Source_Files/force.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Client.dir/Source_Files/force.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/Source_Files/force.cpp.o -c /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/force.cpp
-
-CMakeFiles/Client.dir/Source_Files/force.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/Source_Files/force.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/force.cpp > CMakeFiles/Client.dir/Source_Files/force.cpp.i
-
-CMakeFiles/Client.dir/Source_Files/force.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/Source_Files/force.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/force.cpp -o CMakeFiles/Client.dir/Source_Files/force.cpp.s
-
-CMakeFiles/Client.dir/Source_Files/game.cpp.o: CMakeFiles/Client.dir/flags.make
-CMakeFiles/Client.dir/Source_Files/game.cpp.o: ../Source_Files/game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Client.dir/Source_Files/game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/Source_Files/game.cpp.o -c /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/game.cpp
-
-CMakeFiles/Client.dir/Source_Files/game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/Source_Files/game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/game.cpp > CMakeFiles/Client.dir/Source_Files/game.cpp.i
-
-CMakeFiles/Client.dir/Source_Files/game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/Source_Files/game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/game.cpp -o CMakeFiles/Client.dir/Source_Files/game.cpp.s
-
 CMakeFiles/Client.dir/Source_Files/main.cpp.o: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/Source_Files/main.cpp.o: ../Source_Files/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Client.dir/Source_Files/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/Source_Files/main.cpp.o -c /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Client.dir/Source_Files/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/Source_Files/main.cpp.o -c "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/main.cpp"
 
 CMakeFiles/Client.dir/Source_Files/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/Source_Files/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/main.cpp > CMakeFiles/Client.dir/Source_Files/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/main.cpp" > CMakeFiles/Client.dir/Source_Files/main.cpp.i
 
 CMakeFiles/Client.dir/Source_Files/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/Source_Files/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/main.cpp -o CMakeFiles/Client.dir/Source_Files/main.cpp.s
-
-CMakeFiles/Client.dir/Source_Files/painter.cpp.o: CMakeFiles/Client.dir/flags.make
-CMakeFiles/Client.dir/Source_Files/painter.cpp.o: ../Source_Files/painter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Client.dir/Source_Files/painter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/Source_Files/painter.cpp.o -c /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/painter.cpp
-
-CMakeFiles/Client.dir/Source_Files/painter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/Source_Files/painter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/painter.cpp > CMakeFiles/Client.dir/Source_Files/painter.cpp.i
-
-CMakeFiles/Client.dir/Source_Files/painter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/Source_Files/painter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/painter.cpp -o CMakeFiles/Client.dir/Source_Files/painter.cpp.s
-
-CMakeFiles/Client.dir/Source_Files/pedal.cpp.o: CMakeFiles/Client.dir/flags.make
-CMakeFiles/Client.dir/Source_Files/pedal.cpp.o: ../Source_Files/pedal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Client.dir/Source_Files/pedal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/Source_Files/pedal.cpp.o -c /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/pedal.cpp
-
-CMakeFiles/Client.dir/Source_Files/pedal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/Source_Files/pedal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/pedal.cpp > CMakeFiles/Client.dir/Source_Files/pedal.cpp.i
-
-CMakeFiles/Client.dir/Source_Files/pedal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/Source_Files/pedal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/pedal.cpp -o CMakeFiles/Client.dir/Source_Files/pedal.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/main.cpp" -o CMakeFiles/Client.dir/Source_Files/main.cpp.s
 
 CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.o: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.o: ../Source_Files/SocketClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.o -c /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/SocketClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.o -c "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/SocketClient.cpp"
 
 CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/SocketClient.cpp > CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/SocketClient.cpp" > CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.i
 
 CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/SocketClient.cpp -o CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.s
-
-CMakeFiles/Client.dir/Source_Files/wall.cpp.o: CMakeFiles/Client.dir/flags.make
-CMakeFiles/Client.dir/Source_Files/wall.cpp.o: ../Source_Files/wall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Client.dir/Source_Files/wall.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/Source_Files/wall.cpp.o -c /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/wall.cpp
-
-CMakeFiles/Client.dir/Source_Files/wall.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/Source_Files/wall.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/wall.cpp > CMakeFiles/Client.dir/Source_Files/wall.cpp.i
-
-CMakeFiles/Client.dir/Source_Files/wall.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/Source_Files/wall.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/wall.cpp -o CMakeFiles/Client.dir/Source_Files/wall.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/SocketClient.cpp" -o CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.s
 
 # Object files for target Client
 Client_OBJECTS = \
-"CMakeFiles/Client.dir/Source_Files/ball.cpp.o" \
-"CMakeFiles/Client.dir/Source_Files/breakout.cpp.o" \
-"CMakeFiles/Client.dir/Source_Files/brick.cpp.o" \
-"CMakeFiles/Client.dir/Source_Files/force.cpp.o" \
-"CMakeFiles/Client.dir/Source_Files/game.cpp.o" \
 "CMakeFiles/Client.dir/Source_Files/main.cpp.o" \
-"CMakeFiles/Client.dir/Source_Files/painter.cpp.o" \
-"CMakeFiles/Client.dir/Source_Files/pedal.cpp.o" \
-"CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.o" \
-"CMakeFiles/Client.dir/Source_Files/wall.cpp.o"
+"CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.o"
 
 # External object files for target Client
 Client_EXTERNAL_OBJECTS =
 
-Client: CMakeFiles/Client.dir/Source_Files/ball.cpp.o
-Client: CMakeFiles/Client.dir/Source_Files/breakout.cpp.o
-Client: CMakeFiles/Client.dir/Source_Files/brick.cpp.o
-Client: CMakeFiles/Client.dir/Source_Files/force.cpp.o
-Client: CMakeFiles/Client.dir/Source_Files/game.cpp.o
 Client: CMakeFiles/Client.dir/Source_Files/main.cpp.o
-Client: CMakeFiles/Client.dir/Source_Files/painter.cpp.o
-Client: CMakeFiles/Client.dir/Source_Files/pedal.cpp.o
 Client: CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.o
-Client: CMakeFiles/Client.dir/Source_Files/wall.cpp.o
 Client: CMakeFiles/Client.dir/build.make
-Client: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-Client: /usr/lib/x86_64-linux-gnu/libglut.so
-Client: /usr/lib/x86_64-linux-gnu/libXi.so
 Client: CMakeFiles/Client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -239,6 +116,6 @@ CMakeFiles/Client.dir/clean:
 .PHONY : CMakeFiles/Client.dir/clean
 
 CMakeFiles/Client.dir/depend:
-	cd /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles/Client.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client" "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client" "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug" "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug" "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles/Client.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Client.dir/depend
 
