@@ -25,17 +25,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/Compiler/GNU-C.cmake"
   "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/Compiler/GNU-CXX.cmake"
   "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/Compiler/GNU.cmake"
-  "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/FindGLUT.cmake"
-  "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/FindOpenGL.cmake"
-  "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
-  "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/FindPackageMessage.cmake"
   "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/Platform/Linux-GNU-C.cmake"
   "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/Platform/Linux-GNU-CXX.cmake"
   "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/Platform/Linux-GNU.cmake"
   "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/Platform/Linux.cmake"
   "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/Platform/UnixPaths.cmake"
   "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/ProcessorCount.cmake"
-  "/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/share/cmake-3.20/Modules/SelectLibraryConfigurations.cmake"
   )
 
 # The corresponding makefile is:

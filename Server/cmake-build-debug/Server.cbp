@@ -90,52 +90,7 @@
 		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/SocketServer.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.cpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.hpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/breakout.cpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/brick.cpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/brick.hpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.cpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/game.cpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/game.hpp">
-			<Option target="Server"/>
-		</Unit>
 		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/main.cpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.cpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.hpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/pedal.cpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/pedal.hpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/wall.cpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/wall.hpp">
 			<Option target="Server"/>
 		</Unit>
 		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/CMakeLists.txt">

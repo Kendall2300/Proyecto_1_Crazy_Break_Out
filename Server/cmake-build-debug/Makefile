@@ -153,126 +153,6 @@ Source_Files/SocketServer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.s
 .PHONY : Source_Files/SocketServer.cpp.s
 
-Source_Files/ball.o: Source_Files/ball.cpp.o
-.PHONY : Source_Files/ball.o
-
-# target to build an object file
-Source_Files/ball.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/ball.cpp.o
-.PHONY : Source_Files/ball.cpp.o
-
-Source_Files/ball.i: Source_Files/ball.cpp.i
-.PHONY : Source_Files/ball.i
-
-# target to preprocess a source file
-Source_Files/ball.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/ball.cpp.i
-.PHONY : Source_Files/ball.cpp.i
-
-Source_Files/ball.s: Source_Files/ball.cpp.s
-.PHONY : Source_Files/ball.s
-
-# target to generate assembly for a file
-Source_Files/ball.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/ball.cpp.s
-.PHONY : Source_Files/ball.cpp.s
-
-Source_Files/breakout.o: Source_Files/breakout.cpp.o
-.PHONY : Source_Files/breakout.o
-
-# target to build an object file
-Source_Files/breakout.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/breakout.cpp.o
-.PHONY : Source_Files/breakout.cpp.o
-
-Source_Files/breakout.i: Source_Files/breakout.cpp.i
-.PHONY : Source_Files/breakout.i
-
-# target to preprocess a source file
-Source_Files/breakout.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/breakout.cpp.i
-.PHONY : Source_Files/breakout.cpp.i
-
-Source_Files/breakout.s: Source_Files/breakout.cpp.s
-.PHONY : Source_Files/breakout.s
-
-# target to generate assembly for a file
-Source_Files/breakout.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/breakout.cpp.s
-.PHONY : Source_Files/breakout.cpp.s
-
-Source_Files/brick.o: Source_Files/brick.cpp.o
-.PHONY : Source_Files/brick.o
-
-# target to build an object file
-Source_Files/brick.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/brick.cpp.o
-.PHONY : Source_Files/brick.cpp.o
-
-Source_Files/brick.i: Source_Files/brick.cpp.i
-.PHONY : Source_Files/brick.i
-
-# target to preprocess a source file
-Source_Files/brick.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/brick.cpp.i
-.PHONY : Source_Files/brick.cpp.i
-
-Source_Files/brick.s: Source_Files/brick.cpp.s
-.PHONY : Source_Files/brick.s
-
-# target to generate assembly for a file
-Source_Files/brick.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/brick.cpp.s
-.PHONY : Source_Files/brick.cpp.s
-
-Source_Files/force.o: Source_Files/force.cpp.o
-.PHONY : Source_Files/force.o
-
-# target to build an object file
-Source_Files/force.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/force.cpp.o
-.PHONY : Source_Files/force.cpp.o
-
-Source_Files/force.i: Source_Files/force.cpp.i
-.PHONY : Source_Files/force.i
-
-# target to preprocess a source file
-Source_Files/force.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/force.cpp.i
-.PHONY : Source_Files/force.cpp.i
-
-Source_Files/force.s: Source_Files/force.cpp.s
-.PHONY : Source_Files/force.s
-
-# target to generate assembly for a file
-Source_Files/force.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/force.cpp.s
-.PHONY : Source_Files/force.cpp.s
-
-Source_Files/game.o: Source_Files/game.cpp.o
-.PHONY : Source_Files/game.o
-
-# target to build an object file
-Source_Files/game.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/game.cpp.o
-.PHONY : Source_Files/game.cpp.o
-
-Source_Files/game.i: Source_Files/game.cpp.i
-.PHONY : Source_Files/game.i
-
-# target to preprocess a source file
-Source_Files/game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/game.cpp.i
-.PHONY : Source_Files/game.cpp.i
-
-Source_Files/game.s: Source_Files/game.cpp.s
-.PHONY : Source_Files/game.s
-
-# target to generate assembly for a file
-Source_Files/game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/game.cpp.s
-.PHONY : Source_Files/game.cpp.s
-
 Source_Files/main.o: Source_Files/main.cpp.o
 .PHONY : Source_Files/main.o
 
@@ -297,78 +177,6 @@ Source_Files/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/main.cpp.s
 .PHONY : Source_Files/main.cpp.s
 
-Source_Files/painter.o: Source_Files/painter.cpp.o
-.PHONY : Source_Files/painter.o
-
-# target to build an object file
-Source_Files/painter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/painter.cpp.o
-.PHONY : Source_Files/painter.cpp.o
-
-Source_Files/painter.i: Source_Files/painter.cpp.i
-.PHONY : Source_Files/painter.i
-
-# target to preprocess a source file
-Source_Files/painter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/painter.cpp.i
-.PHONY : Source_Files/painter.cpp.i
-
-Source_Files/painter.s: Source_Files/painter.cpp.s
-.PHONY : Source_Files/painter.s
-
-# target to generate assembly for a file
-Source_Files/painter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/painter.cpp.s
-.PHONY : Source_Files/painter.cpp.s
-
-Source_Files/pedal.o: Source_Files/pedal.cpp.o
-.PHONY : Source_Files/pedal.o
-
-# target to build an object file
-Source_Files/pedal.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/pedal.cpp.o
-.PHONY : Source_Files/pedal.cpp.o
-
-Source_Files/pedal.i: Source_Files/pedal.cpp.i
-.PHONY : Source_Files/pedal.i
-
-# target to preprocess a source file
-Source_Files/pedal.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/pedal.cpp.i
-.PHONY : Source_Files/pedal.cpp.i
-
-Source_Files/pedal.s: Source_Files/pedal.cpp.s
-.PHONY : Source_Files/pedal.s
-
-# target to generate assembly for a file
-Source_Files/pedal.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/pedal.cpp.s
-.PHONY : Source_Files/pedal.cpp.s
-
-Source_Files/wall.o: Source_Files/wall.cpp.o
-.PHONY : Source_Files/wall.o
-
-# target to build an object file
-Source_Files/wall.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/wall.cpp.o
-.PHONY : Source_Files/wall.cpp.o
-
-Source_Files/wall.i: Source_Files/wall.cpp.i
-.PHONY : Source_Files/wall.i
-
-# target to preprocess a source file
-Source_Files/wall.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/wall.cpp.i
-.PHONY : Source_Files/wall.cpp.i
-
-Source_Files/wall.s: Source_Files/wall.cpp.s
-.PHONY : Source_Files/wall.s
-
-# target to generate assembly for a file
-Source_Files/wall.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/wall.cpp.s
-.PHONY : Source_Files/wall.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -381,33 +189,9 @@ help:
 	@echo "... Source_Files/SocketServer.o"
 	@echo "... Source_Files/SocketServer.i"
 	@echo "... Source_Files/SocketServer.s"
-	@echo "... Source_Files/ball.o"
-	@echo "... Source_Files/ball.i"
-	@echo "... Source_Files/ball.s"
-	@echo "... Source_Files/breakout.o"
-	@echo "... Source_Files/breakout.i"
-	@echo "... Source_Files/breakout.s"
-	@echo "... Source_Files/brick.o"
-	@echo "... Source_Files/brick.i"
-	@echo "... Source_Files/brick.s"
-	@echo "... Source_Files/force.o"
-	@echo "... Source_Files/force.i"
-	@echo "... Source_Files/force.s"
-	@echo "... Source_Files/game.o"
-	@echo "... Source_Files/game.i"
-	@echo "... Source_Files/game.s"
 	@echo "... Source_Files/main.o"
 	@echo "... Source_Files/main.i"
 	@echo "... Source_Files/main.s"
-	@echo "... Source_Files/painter.o"
-	@echo "... Source_Files/painter.i"
-	@echo "... Source_Files/painter.s"
-	@echo "... Source_Files/pedal.o"
-	@echo "... Source_Files/pedal.i"
-	@echo "... Source_Files/pedal.s"
-	@echo "... Source_Files/wall.o"
-	@echo "... Source_Files/wall.i"
-	@echo "... Source_Files/wall.s"
 .PHONY : help
 
 
