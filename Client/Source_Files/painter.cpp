@@ -14,10 +14,10 @@ void Painter::bar(int x1, int y1, int x2, int y2)
 void Painter::ball(int x, int y)
 {
   glBegin(GL_POLYGON);
-  glVertex2f(x + 3, y);
-  glVertex2f(x, y + 3);
-  glVertex2f(x - 3, y);
-  glVertex2f(x, y - 3);
+  glVertex2f(x + 9, y);
+  glVertex2f(x, y + 9);
+  glVertex2f(x - 9, y);
+  glVertex2f(x, y - 9);
   glEnd();
 }
 

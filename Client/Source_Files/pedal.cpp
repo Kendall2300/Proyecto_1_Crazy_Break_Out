@@ -8,7 +8,7 @@ Pedal::Pedal(): x_(Wall::WIDTH / 2) {}
 void Pedal::draw(Painter &p) const
 {
   p.setColor(Painter::ORANGE);
-  p.bar(x_ - WIDTH / 2, Wall::HEIGHT - 2, 
+  p.bar(x_ - WIDTH / 2, Wall::HEIGHT - 10,
 	 x_ + WIDTH - WIDTH / 2, Wall::HEIGHT);
 }
 Force Pedal::tick(const Ball &ball)

@@ -7,8 +7,8 @@ class Ball;
 class Brick
 {
 public:
-  enum { WIDTH = 20,
-	 HEIGHT = 8 };
+  enum { WIDTH = 60,
+	 HEIGHT = 24 };
   Brick(int col, int row);
   void draw(Painter &) const;
   void destroy();

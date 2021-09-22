@@ -7,7 +7,7 @@ class Ball;
 class Pedal
 {
 public:
-  enum { WIDTH = 32 };
+  enum { WIDTH = 96 };
   Pedal();
   void draw(Painter &) const;
   Force tick(const Ball &);

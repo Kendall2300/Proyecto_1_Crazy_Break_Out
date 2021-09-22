@@ -2,9 +2,9 @@
 #include "painter.hpp"
 #include "wall.hpp"
 
-Ball::Ball(): x_(Wall::WIDTH / 2), 
-	      y_(Wall::HEIGHT - 3), 
-	      vx_(80), 
+Ball::Ball(): x_(Wall::WIDTH / 2),
+	      y_(Wall::HEIGHT - 3),
+	      vx_(80),
 	      vy_(-80) {}
 
 void Ball::draw(Painter &p) const
