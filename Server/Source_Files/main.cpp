@@ -41,6 +41,10 @@ void * serverRun(void *){
     pthread_exit(NULL);
 }
 
+void runGame(){
+
+}
+
 int main(int argc, char **argv){
     server = new SocketServer;
     pthread_t hiloS;
@@ -51,31 +55,29 @@ int main(int argc, char **argv){
     while(1){
         string msn;
         cin >> msn;
-        if(msn == "salir"){
+        if(msn == "begin"){
+            //Llamando al juego base
+            glutInit(&argc, argv);
+            glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
+            glutInitWindowSize(
+                    Wall::WIDTH,
+                    Wall::HEIGHT);
+            glutInitWindowPosition(100, 780);
+            glutCreateWindow("Breakout");
+            glClearColor(0, 0, 0, 1.0);
+            glMatrixMode(GL_PROJECTION);
+            glLoadIdentity();
+            glOrtho(0, Wall::WIDTH, Wall::HEIGHT, 0, -1.0, 1.0);
+            glutDisplayFunc(display);
+            glutPassiveMotionFunc(mouse);
+            timer();
+
+            glutMainLoop();
             break;
             
         }
         server->setMsj(json.c_str());
     }
-
-    //Llamando al juego base
-
-    glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
-    glutInitWindowSize(
-            Wall::WIDTH,
-            Wall::HEIGHT);
-    glutInitWindowPosition(100, 780);
-    glutCreateWindow("Breakout");
-    glClearColor(0, 0, 0, 1.0);
-    glMatrixMode(GL_PROJECTION);
-    glLoadIdentity();
-    glOrtho(0, Wall::WIDTH, Wall::HEIGHT, 0, -1.0, 1.0);
-    glutDisplayFunc(display);
-    glutPassiveMotionFunc(mouse);
-    timer();
-
-    glutMainLoop();
 
     delete server;
 

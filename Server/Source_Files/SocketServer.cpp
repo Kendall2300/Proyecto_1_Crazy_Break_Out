@@ -34,7 +34,7 @@ void SocketServer::run() {
         throw string("Error al enlazar el kernell");
 
 
-
+    bool ack = true;
     while(true){
         dataSocket data;
         socklen_t t = sizeof(data.info);
@@ -50,6 +50,7 @@ void SocketServer::run() {
             pthread_t hilo;
             pthread_create(&hilo, 0, SocketServer::clientController, (void *)&data);
             pthread_detach(hilo);
+            ack = false;
         }
     }
     close(descriptor);
