@@ -2,10 +2,10 @@
 #include "painter.hpp"
 #include "wall.hpp"
 
-Ball::Ball(): x_(Wall::WIDTH / 2), 
+Ball::Ball(): x_(Wall::WIDTH / 2),
 	      y_(Wall::HEIGHT - 3), 
-	      vx_(80), 
-	      vy_(-80) {}
+	      vx_(160),
+	      vy_(-160){}
 
 void Ball::draw(Painter &p) const
 {
@@ -17,7 +17,7 @@ void Ball::tick(Force f)
 {
   float x = f.x;
   float y = f.y;
-  const float LIM = .2;
+  const float LIM = 30;
   if (x > LIM)
     x = LIM;
   if (x < -LIM)

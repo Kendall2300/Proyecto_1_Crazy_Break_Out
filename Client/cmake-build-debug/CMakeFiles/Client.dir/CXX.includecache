@@ -6,26 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/SocketClient.h
-sys/socket.h
--
-sys/types.h
--
-netdb.h
--
-string.h
--
-iostream
--
-pthread.h
--
-vector
--
-unistd.h
--
-arpa/inet.h
--
-
 /home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/ball.cpp
 ball.hpp
 /home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/ball.hpp
@@ -38,22 +18,6 @@ wall.hpp
 force.hpp
 /home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/force.hpp
 
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/breakout.cpp
-wall.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/wall.hpp
-game.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/game.hpp
-GL/glut.h
--
-
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/brick.cpp
-brick.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/brick.hpp
-painter.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/painter.hpp
-ball.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/ball.hpp
-
 /home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/brick.hpp
 force.hpp
 /home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/force.hpp
@@ -64,61 +28,7 @@ force.hpp
 
 /home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/force.hpp
 
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/game.cpp
-game.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/game.hpp
-painter.hpp
 /home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/painter.hpp
-
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/game.hpp
-ball.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/ball.hpp
-wall.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/wall.hpp
-pedal.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/pedal.hpp
-
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/main.cpp
-SocketClient.h
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/SocketClient.h
-string.h
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/string.h
-painter.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/painter.hpp
-wall.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/wall.hpp
-game.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/game.hpp
-GL/glut.h
--
-
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/painter.cpp
-painter.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/painter.hpp
-GL/gl.h
--
-
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/painter.hpp
-
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/pedal.cpp
-pedal.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/pedal.hpp
-wall.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/wall.hpp
-painter.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/painter.hpp
-ball.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/ball.hpp
-
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/pedal.hpp
-force.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/force.hpp
-
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/wall.cpp
-wall.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/wall.hpp
-ball.hpp
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/ball.hpp
 
 /home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/wall.hpp
 force.hpp

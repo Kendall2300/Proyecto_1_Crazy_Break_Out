@@ -51,7 +51,7 @@ int main(int argc, char **argv){
     while(1){
         string msn;
         cin >> msn;
-        if(msn == "begin"){
+        if(msn == "b"){
             //Llamando al juego base
             glutInit(&argc, argv);
             glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
