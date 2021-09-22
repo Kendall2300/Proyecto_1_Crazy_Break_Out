@@ -18,6 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51113f19-026d-43ba-acc9-42b3968d2bf6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Source_Files/ball.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Source_Files/ball.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Source_Files/brick.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Source_Files/brick.hpp" afterDir="false" />
@@ -60,7 +61,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">

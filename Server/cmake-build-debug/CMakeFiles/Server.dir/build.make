@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/164/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/164/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server"
+CMAKE_SOURCE_DIR = /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Server.dir/depend.make
@@ -68,29 +68,29 @@ include CMakeFiles/Server.dir/flags.make
 
 CMakeFiles/Server.dir/Source_Files/main.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/Source_Files/main.cpp.o: ../Source_Files/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/Source_Files/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Source_Files/main.cpp.o -c "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/Source_Files/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Source_Files/main.cpp.o -c /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/main.cpp
 
 CMakeFiles/Server.dir/Source_Files/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/Source_Files/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/main.cpp" > CMakeFiles/Server.dir/Source_Files/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/main.cpp > CMakeFiles/Server.dir/Source_Files/main.cpp.i
 
 CMakeFiles/Server.dir/Source_Files/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/Source_Files/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/main.cpp" -o CMakeFiles/Server.dir/Source_Files/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/main.cpp -o CMakeFiles/Server.dir/Source_Files/main.cpp.s
 
 CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.o: ../Source_Files/SocketServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.o -c "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/SocketServer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.o -c /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/SocketServer.cpp
 
 CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/SocketServer.cpp" > CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/SocketServer.cpp > CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.i
 
 CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/SocketServer.cpp" -o CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/SocketServer.cpp -o CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.s
 
 # Object files for target Server
 Server_OBJECTS = \
@@ -104,7 +104,7 @@ Server: CMakeFiles/Server.dir/Source_Files/main.cpp.o
 Server: CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.o
 Server: CMakeFiles/Server.dir/build.make
 Server: CMakeFiles/Server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -116,6 +116,6 @@ CMakeFiles/Server.dir/clean:
 .PHONY : CMakeFiles/Server.dir/clean
 
 CMakeFiles/Server.dir/depend:
-	cd "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server" "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server" "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug" "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug" "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles/Server.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles/Server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Server.dir/depend
 
