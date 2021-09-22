@@ -3,7 +3,7 @@
 #include "wall.hpp"
 
 Ball::Ball(): x_(Wall::WIDTH / 2),
-	      y_(Wall::HEIGHT - 3), 
+	      y_(Wall::HEIGHT - 50),
 	      vx_(160),
 	      vy_(-160){}
 
