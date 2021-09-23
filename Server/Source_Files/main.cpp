@@ -3,7 +3,7 @@
 #include "painter.hpp"
 #include "wall.hpp"
 #include "game.hpp"
-#include <GL/glut.h>
+#include "GL/glut.h"
 
 using namespace std;
 
@@ -55,7 +55,7 @@ void keys(unsigned char key, int,int){
         timer();
     }
     else if(key=='k'){
-        exit(1);
+        exit(0);
     }
     glutPostRedisplay();
 }
