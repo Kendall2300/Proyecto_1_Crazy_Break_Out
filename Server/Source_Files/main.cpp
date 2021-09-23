@@ -8,8 +8,7 @@
 using namespace std;
 
 Game game;
-void display()
-{
+void display(){
     glClear(GL_COLOR_BUFFER_BIT);
     Painter p;
     game.draw(p);

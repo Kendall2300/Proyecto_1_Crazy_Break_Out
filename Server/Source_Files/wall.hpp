@@ -2,6 +2,8 @@
 #include "force.hpp"
 #include "brick.hpp"
 #include <vector>
+#include <stdlib.h>
+#include <time.h>
 
 class Painter;
 class Ball;
@@ -19,4 +21,12 @@ public:
 public:
   typedef std::vector<Brick> Bricks;
   Bricks bricks_;
+  int randNumx;
+  int randNumy;
+  int commonBrick = 0;
+  int doubleBrick = 1;
+  int tripleBrick = 2;
+  int inBrick = 3;
+  int deepBrick = 4;
+  int surpriseBrick = 5;
 };

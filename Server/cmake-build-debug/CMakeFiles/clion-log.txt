@@ -1,4 +1,4 @@
-/snap/clion/164/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server
+/home/dlurena24/Programs/clion-2021.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server"
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
 -- Detecting C compiler ABI info
@@ -15,4 +15,4 @@
 -- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug
+-- Build files have been written to: /home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug

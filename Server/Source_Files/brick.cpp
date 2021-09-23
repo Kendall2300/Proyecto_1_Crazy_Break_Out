@@ -2,28 +2,28 @@
 #include "painter.hpp"
 #include "ball.hpp"
 
-Brick::Brick(int col, int row): 
+Brick::Brick(int col, int row, int id):
   col_(col), 
-  row_(row),  
-  countDownTimer_(-1) 
+  row_(row),
+  id_(id),
+  countDownTimer_(-1)
 {}
 
 void Brick::draw(Painter &p) const
 {
-  if (countDownTimer_ == -1)
-  {
-    p.setColor(static_cast<Painter::Color>(row_ / 2));
+    if (countDownTimer_ == -1)
+    {
+    p.setColor(static_cast<Painter::Color>(id_));//Color brick
     p.bar(col_ * WIDTH + 1, row_ * HEIGHT + 1,
-	  (col_ + 1) * WIDTH - 1, (row_ + 1) * HEIGHT - 1);
-  }
-  else if (countDownTimer_ != 0)
-  {
+      (col_ + 1) * WIDTH - 1, (row_ + 1) * HEIGHT - 1);
+    }
+    else if (countDownTimer_ != 0)//Explosion brick
+    {
     p.setColor
-      (static_cast<Painter::Color>
-       (countDownTimer_ / 10));
+      (static_cast<Painter::Color>(5));
     p.bar(col_ * WIDTH + 1, row_ * HEIGHT + 1,
-	  (col_ + 1) * WIDTH - 1, (row_ + 1) * HEIGHT - 1);
-  }
+      (col_ + 1) * WIDTH - 1, (row_ + 1) * HEIGHT - 1);
+    }
 }
 
 Force Brick::tick(const Ball &ball) 
@@ -59,8 +59,7 @@ Force Brick::tick(const Ball &ball)
   else // if (!d && !u) // bottom
   {
     if (row_ * HEIGHT + HEIGHT - ball.y() + 1 > 0)
-      result += Force
-	(0, row_ * HEIGHT + HEIGHT - ball.y() + 1);
+      result += Force(0, row_ * HEIGHT + HEIGHT - ball.y() + 1);
   }
   return result;
 }
