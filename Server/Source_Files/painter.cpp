@@ -34,12 +34,14 @@ void Painter::setColor(Color color)
     float r, g, b;
   } colors[] = 
       {
-	{ 1, 1, 0 }, // yellow
-	{ 0, 1, 0 }, // green
-	{ 1, 0.5, 0 }, // orange
-	{ 1, 0, 0 }, // red
-	{ 1, 1, 1 }, // yellow
-	{ 0, 0, 0 }, // black
+	{ 255, 255, 255 }, // white
+	{ 0, 0.9, 0.9 }, // cyan
+	{ 0.1, 0.5, 0.8 }, // blue
+	{ 0.1, 0.2, 0.5 }, // dark blue
+	{ 0.5, 0, 0.8 }, // purple
+	{ 0.6, 0.6, 0.6 }, // gray
+    { 0.9, 0, 0.9 }, // pink
+    { 0, 0, 0 }, // black
       };
   glColor3f(colors[color].r, 
 	    colors[color].g, 

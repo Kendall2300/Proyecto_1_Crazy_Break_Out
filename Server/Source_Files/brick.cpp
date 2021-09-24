@@ -20,7 +20,7 @@ void Brick::draw(Painter &p) const
     else if (countDownTimer_ != 0)//Explosion brick
     {
     p.setColor
-      (static_cast<Painter::Color>(5));
+      (static_cast<Painter::Color>(0));
     p.bar(col_ * WIDTH + 1, row_ * HEIGHT + 1,
       (col_ + 1) * WIDTH - 1, (row_ + 1) * HEIGHT - 1);
     }

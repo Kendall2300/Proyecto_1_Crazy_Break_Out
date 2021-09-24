@@ -1,33 +1,35 @@
 #include "wall.hpp"
 #include "ball.hpp"
 
-
-
 Wall::Wall() //Creación de bricks
 {
     srand(time(NULL));
-    randNumx = 1;
-    randNumy = rand() % 16;
-    int counter =0;
+    //randNumx = rand() % 16;
+    //randNumy = 0;     //
+    int counter =0;             //
+    id_ = rand() % 6 + 1;   //
     for (int row = 0; row < 10; ++row){
-        if(row == randNumx && counter<=3){
+        /*if(row == randNumy && counter<=3){
             for (int col = 0; col < COLS_COUNT; ++col){
-                if(col == randNumy && counter<=3){
-                    bricks_.push_back(Brick(col, row, doubleBrick));
-                    randNumx = rand() % 10;
-                    randNumy = rand() % 16;
+                if(col == randNumx /*&& counter<=3){
+                    bricks_.push_back(Brick(col, row, ematoma));
+                    randNumx = rand() % 16 + randNumx;
+                    //randNumy ++;
+                    ematoma = rand() % 6;
                     counter ++;
                 }
                 else {
                     bricks_.push_back(Brick(col, row, commonBrick));
                 }
+                randNumy ++;
             }
         }
-        else{
+        else{*/
             for (int col = 0; col < COLS_COUNT; ++col){
-                    bricks_.push_back(Brick(col, row, commonBrick));
+                    bricks_.push_back(Brick(col, row, id_));
+                    id_ = rand() % 6 + 1;
             }
-        }
+        /*}*/
     }
 }
 

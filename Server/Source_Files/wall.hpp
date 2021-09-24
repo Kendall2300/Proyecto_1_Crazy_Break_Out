@@ -23,10 +23,11 @@ public:
   Bricks bricks_;
   int randNumx;
   int randNumy;
-  int commonBrick = 0;
-  int doubleBrick = 1;
-  int tripleBrick = 2;
-  int inBrick = 3;
-  int deepBrick = 4;
-  int surpriseBrick = 5;
+  int commonBrick = 1;
+  int doubleBrick = 2;
+  int tripleBrick = 3;
+  int inBrick = 4;
+  int deepBrick = 5;
+  int surpriseBrick = 6;
+  int id_;
 };
