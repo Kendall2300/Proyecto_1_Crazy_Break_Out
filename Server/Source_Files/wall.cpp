@@ -4,10 +4,9 @@
 Wall::Wall() //Creación de bricks
 {
     srand(time(NULL));
-    //randNumx = rand() % 16;
-    //randNumy = 0;     //
-    int counter =0;             //
-    id_ = rand() % 6 + 1;   //
+    //int counter =0;
+
+    id_ = rand() % 6 + 1;
     for (int row = 0; row < 10; ++row){
         /*if(row == randNumy && counter<=3){
             for (int col = 0; col < COLS_COUNT; ++col){
@@ -35,8 +34,7 @@ Wall::Wall() //Creación de bricks
 
 void Wall::draw(Painter &p) const
 {
-  for (Bricks::const_iterator i = bricks_.begin(); 
-       i != bricks_.end(); ++i)
+  for (Bricks::const_iterator i = bricks_.begin();i != bricks_.end(); ++i)
     i -> draw(p);
 }
 
@@ -50,8 +48,7 @@ Force Wall::tick(const Ball &ball)
   if (1 - ball.y() > 0)
     result += Force(0, 1 - ball.y());
 
-  for (Bricks::iterator i = bricks_.begin(); 
-       i != bricks_.end(); ++i)
+  for (Bricks::iterator i = bricks_.begin(); i != bricks_.end(); ++i)
   {
     Force f = i -> tick(ball);
     result += f;

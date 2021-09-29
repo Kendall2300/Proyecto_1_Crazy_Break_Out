@@ -20,12 +20,11 @@
     <list default="true" id="51113f19-026d-43ba-acc9-42b3968d2bf6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source_Files/brick.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/brick.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source_Files/painter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/painter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source_Files/painter.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/painter.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source_Files/pedal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/pedal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_Files/brick.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/brick.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source_Files/wall.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/wall.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source_Files/wall.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/wall.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Server" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
@@ -77,11 +76,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -105,6 +99,9 @@
       <workItem from="1632357387351" duration="1017000" />
       <workItem from="1632367544633" duration="13343000" />
       <workItem from="1632450660396" duration="10831000" />
+      <workItem from="1632763529287" duration="4114000" />
+      <workItem from="1632801521858" duration="9507000" />
+      <workItem from="1632850111545" duration="12310000" />
     </task>
     <servers />
   </component>

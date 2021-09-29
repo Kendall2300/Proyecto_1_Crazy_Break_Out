@@ -1,5 +1,6 @@
 #pragma once
 #include "force.hpp"
+#include "painter.hpp"
 
 class Painter;
 class Ball;
@@ -18,4 +19,5 @@ private:
   int row_;
   int countDownTimer_;
   int id_;
+  int counter;
 };

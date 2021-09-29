@@ -6,13 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.cpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.hpp
+force.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
+
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/brick.cpp
+brick.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/brick.hpp
 painter.hpp
 /home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.hpp
-GL/gl.h
--
-math.h
--
+ball.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.hpp
+
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/brick.hpp
+force.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
+painter.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.hpp
+
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
 
 /home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.hpp
 
