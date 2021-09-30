@@ -30,4 +30,5 @@ public:
   int deepBrick = 5;
   int surpriseBrick = 6;
   int id_;
+  int score=0;
 };

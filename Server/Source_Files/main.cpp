@@ -20,10 +20,9 @@ void display(){
     }
     /*glColor3f(2,0,0);
     glRasterPos3f(10,760,0);
-    char Score =  ;
-    for(int i=0; i < strlen(Score); i++){
-        glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, Score[i]);
-    }*/
+    str = itoa(score,buffer,10);
+     glutBitmapText(str,4.0f,2.0f,0.0f);
+    */
 
     glutSwapBuffers();
 }
