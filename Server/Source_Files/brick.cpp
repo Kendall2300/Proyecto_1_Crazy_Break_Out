@@ -7,7 +7,8 @@ Brick::Brick(int col, int row, int id):
   row_(row),
   id_(id),
   countDownTimer_(-1),
-  counter(0)
+  counter(0),
+  Destroyed(false)
 {}
 
 void Brick::draw(Painter &p) const
@@ -140,6 +141,7 @@ void Brick::destroy()
   else{
       if (countDownTimer_ == -1)
           countDownTimer_ = 60;
+      Destroyed=true;
   }
 
 }
@@ -149,6 +151,6 @@ int Brick::getId() {
 bool Brick::getDestroyed() {
     return Destroyed;
 }
-void Brick::setDestroyed() {
+/*void Brick::setDestroyed() {
     Destroyed=true;
-}
+}*/

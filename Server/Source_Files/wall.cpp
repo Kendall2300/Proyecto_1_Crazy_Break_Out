@@ -57,19 +57,16 @@ Force Wall::tick(const Ball &ball)
     result += f;
     if (f.x != 0 || f.y != 0){
         i -> destroy();
-        /*
-         if (i->getId()==1 && i.is(destroyed())){
-            score+=10;
-         }else if(i->getId()==2 && i.is(destroyed())){
-            score+=15;
-         }else if(i->getId()==3 && i.is(destroyed())){
-            score+=20;
-         }
-        */
-
+        if(i->getDestroyed()==true){
+            if(i->getId()==1){
+                score+=10;
+            }else if(i->getId()==2){
+                score+=15;
+            }else if(i->getId()==3){
+                score+=30;
+            }
+        }
     }
-
-
   }
 
   return result;
