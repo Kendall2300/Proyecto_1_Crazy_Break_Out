@@ -4,6 +4,8 @@
 
 using namespace std;
 
+//bool brk = false;
+
 Wall::Wall() //Creación de bricks
 {
     srand(time(NULL));
@@ -57,13 +59,26 @@ Force Wall::tick(const Ball &ball)
     result += f;
     if (f.x != 0 || f.y != 0){
         i -> destroy();
-        if(i->getDestroyed()==true){
+        if(i->getDestroyed() && !i->getBrk()){
             if(i->getId()==1){
                 score+=10;
-            }else if(i->getId()==2){
-                score+=15;
-            }else if(i->getId()==3){
-                score+=30;
+                i->setBrk(true);
+            }if(i->getId()==2){
+                if(i->getDtcounter() > 24){
+                    score+=15;
+                    i->setBrk(true);
+                }
+                else{
+                    i->setDtcounter(1);
+                }
+            }if(i->getId()==3){
+                if(i->getDtcounter() > 48){
+                    score+=20;
+                    i->setBrk(true);
+                }
+                else{
+                    i->setDtcounter(1);
+                }
             }
         }
         cout << score << endl;

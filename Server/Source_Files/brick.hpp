@@ -8,19 +8,24 @@ class Ball;
 class Brick
 {
 public:
-  enum { WIDTH = 80,
-	 HEIGHT = 32 };
-  Brick(int col, int row, int id);
-  void draw(Painter &) const;
-  void destroy();
-  Force tick(const Ball &);
-  int getId();
-  bool getDestroyed();
+    enum { WIDTH = 80, HEIGHT = 32 };
+    Brick(int col, int row, int id);
+    void draw(Painter &) const;
+    void destroy();
+    Force tick(const Ball &);
+    int getId();
+    bool getDestroyed();
+    bool getBrk();
+    bool setBrk(bool b);
+    int getDtcounter();
+    int setDtcounter(int dtc);
 private:
-  int col_;
-  int row_;
-  int countDownTimer_;
-  int id_;
-  int counter;
-  bool Destroyed;
+    int col_;
+    int row_;
+    int countDownTimer_;
+    int id_;
+    int counter;
+    bool destroyed;
+    bool brk;
+    int dtcounter;
 };
