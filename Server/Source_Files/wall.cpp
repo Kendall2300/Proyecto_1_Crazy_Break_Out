@@ -80,8 +80,8 @@ Force Wall::tick(const Ball &ball)
                     i->setDtcounter(1);
                 }
             }
+            cout << "Score:" << score << endl;
         }
-        cout << score << endl;
     }
   }
 

@@ -13,4 +13,6 @@ private:
   Ball ball_;
   Wall wall_;
   Pedal pedal_;
+public:
+    int ballCounter = 5;
 };
