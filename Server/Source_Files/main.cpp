@@ -1,3 +1,4 @@
+#include <sstream>
 #include "SocketServer.h"
 #include "string.h"
 #include "painter.hpp"
@@ -6,7 +7,7 @@
 #include "GL/glut.h"
 
 using namespace std;
-
+Wall wall;
 Game game;
 void display(){
     glClear(GL_COLOR_BUFFER_BIT);
@@ -18,11 +19,20 @@ void display(){
     for(int i=0; i < strlen(Score); i++){
         glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, Score[i]);
     }
-    /*glColor3f(2,0,0);
-    glRasterPos3f(10,760,0);
-    str = itoa(score,buffer,10);
-     glutBitmapText(str,4.0f,2.0f,0.0f);
-    */
+    
+    glColor3f(2,0,0);
+    glRasterPos3f(100,760,0);
+    stringstream ss;
+    ss<<wall.getScore();
+    //cout<<wall.getScore()<<endl;
+    string str = ss.str();
+    char const* points=str.c_str();
+
+    for(int i=0; i<strlen(points);i++){
+        glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24,points[i]);
+    }
+
+    
 
     glutSwapBuffers();
 }

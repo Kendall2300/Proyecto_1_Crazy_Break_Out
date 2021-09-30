@@ -1,6 +1,7 @@
 #include "wall.hpp"
 #include "ball.hpp"
 #include "iostream"
+#include "GL/glut.h"
 
 using namespace std;
 
@@ -80,10 +81,17 @@ Force Wall::tick(const Ball &ball)
                     i->setDtcounter(1);
                 }
             }
-            cout << "Score:" << score << endl;
+            set_score(score);
+            cout<<score<<endl;
         }
     }
   }
 
   return result;
+}
+void Wall::set_score(int score) {
+    score=score;
+}
+int Wall::getScore() {
+    return score;
 }
