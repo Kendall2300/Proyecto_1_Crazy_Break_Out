@@ -1,11 +1,13 @@
 #include "game.hpp"
 #include "painter.hpp"
 
+
 void Game::draw(Painter &p) const
 {
   wall_.draw(p);
   ball_.draw(p);
   pedal_.draw(p);
+
 }
 
 void Game::setX(int x)

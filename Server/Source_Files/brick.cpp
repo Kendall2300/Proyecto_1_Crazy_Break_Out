@@ -141,4 +141,14 @@ void Brick::destroy()
       if (countDownTimer_ == -1)
           countDownTimer_ = 60;
   }
+
+}
+int Brick::getId() {
+    return id_;
+}
+bool Brick::getDestroyed() {
+    return Destroyed;
+}
+void Brick::setDestroyed() {
+    Destroyed=true;
 }

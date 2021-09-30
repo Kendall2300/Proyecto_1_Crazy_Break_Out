@@ -26,7 +26,7 @@ int main(){
         cin >> msn;
         if(msn == "salir"){
             break;
-        }else if(msn == "begin"){
+        }else if(msn == "b"){
             //Obteniendo los datos
             cout << "Bienvenido al menu de conexion!" << endl;
             cout << "Por favor ingrese el nombre del usuario"<<endl;
@@ -42,7 +42,6 @@ int main(){
             cin >> Puerto;
             cout << "EL puerto a utilizar sera el siguiente: "+Puerto << endl;
             cout << "Pronto te redireccionaremos al menu del juego!!" << endl;
-            break;
         }
         client->setMsj(json.c_str());
     }

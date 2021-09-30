@@ -1,6 +1,9 @@
 #include "wall.hpp"
 #include "ball.hpp"
+#include "iostream"
 
+using namespace std;
+int score=0;
 Wall::Wall() //Creación de bricks
 {
     srand(time(NULL));
@@ -52,8 +55,21 @@ Force Wall::tick(const Ball &ball)
   {
     Force f = i -> tick(ball);
     result += f;
-    if (f.x != 0 || f.y != 0)
-      i -> destroy();
+    if (f.x != 0 || f.y != 0){
+        i -> destroy();
+        /*
+         if (i->getId()==1 && i.is(destroyed())){
+            score+=10;
+         }else if(i->getId()==2 && i.is(destroyed())){
+            score+=15;
+         }else if(i->getId()==3 && i.is(destroyed())){
+            score+=20;
+         }
+        */
+
+    }
+
+
   }
 
   return result;

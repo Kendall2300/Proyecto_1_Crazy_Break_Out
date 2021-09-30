@@ -14,10 +14,14 @@ public:
   void draw(Painter &) const;
   void destroy();
   Force tick(const Ball &);
+  int getId();
+  bool getDestroyed();
+  void setDestroyed();
 private:
   int col_;
   int row_;
   int countDownTimer_;
   int id_;
   int counter;
+  bool Destroyed;
 };
