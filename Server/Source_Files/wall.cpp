@@ -3,7 +3,7 @@
 #include "iostream"
 
 using namespace std;
-int score=0;
+
 Wall::Wall() //Creación de bricks
 {
     srand(time(NULL));
@@ -66,6 +66,7 @@ Force Wall::tick(const Ball &ball)
                 score+=30;
             }
         }
+        cout << score << endl;
     }
   }
 

@@ -12,6 +12,19 @@ void display(){
     glClear(GL_COLOR_BUFFER_BIT);
     Painter p;
     game.draw(p);
+    glColor3f(2,0,0);
+    glRasterPos3f(10,760,0);
+    char Score[]="Score: ";
+    for(int i=0; i < strlen(Score); i++){
+        glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, Score[i]);
+    }
+    /*glColor3f(2,0,0);
+    glRasterPos3f(10,760,0);
+    char Score =  ;
+    for(int i=0; i < strlen(Score); i++){
+        glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, Score[i]);
+    }*/
+
     glutSwapBuffers();
 }
 

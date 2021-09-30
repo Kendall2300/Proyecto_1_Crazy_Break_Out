@@ -16,7 +16,6 @@ public:
   Force tick(const Ball &);
   int getId();
   bool getDestroyed();
-  //void setDestroyed();
 private:
   int col_;
   int row_;
