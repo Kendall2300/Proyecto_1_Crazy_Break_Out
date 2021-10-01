@@ -7,7 +7,6 @@
 #include "GL/glut.h"
 
 using namespace std;
-Wall wall;
 Game game;
 void display(){
     glClear(GL_COLOR_BUFFER_BIT);
@@ -19,19 +18,30 @@ void display(){
     for(int i=0; i < strlen(Score); i++){
         glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, Score[i]);
     }
-    
     glColor3f(2,0,0);
     glRasterPos3f(100,760,0);
     stringstream ss;
-    ss<<wall.getScore();
-    //cout<<wall.getScore()<<endl;
+    ss<<game.GScore;
     string str = ss.str();
     char const* points=str.c_str();
-
     for(int i=0; i<strlen(points);i++){
         glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24,points[i]);
     }
-
+    glColor3f(2,0,0);
+    glRasterPos3f(1100,760,0);
+    char Bolas[]="Bolas: ";
+    for(int i=0; i < strlen(Bolas); i++){
+        glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, Bolas[i]);
+    }
+    glColor3f(2,0,0);
+    glRasterPos3f(1165,760,0);
+    stringstream s2;
+    s2<<game.ballCounter;
+    string str2 = s2.str();
+    char const* Balls=str2.c_str();
+    for(int i=0; i<strlen(Balls);i++){
+        glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24,Balls[i]);
+    }
     
 
     glutSwapBuffers();

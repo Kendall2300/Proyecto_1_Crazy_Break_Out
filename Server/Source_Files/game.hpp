@@ -15,4 +15,5 @@ private:
   Pedal pedal_;
 public:
     int ballCounter = 5;
+    int GScore=0;
 };

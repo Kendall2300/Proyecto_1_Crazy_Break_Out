@@ -81,16 +81,12 @@ Force Wall::tick(const Ball &ball)
                     i->setDtcounter(1);
                 }
             }
-            set_score(score);
-            cout<<score<<endl;
+            //cout<<score<<endl;
         }
     }
   }
 
   return result;
-}
-void Wall::set_score(int score) {
-    score=score;
 }
 int Wall::getScore() {
     return score;

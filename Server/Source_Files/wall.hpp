@@ -18,7 +18,6 @@ public:
   Wall();
   void draw(Painter &) const;
   Force tick(const Ball &);
-  void set_score(int score);
   int getScore();
 public:
   typedef std::vector<Brick> Bricks;
