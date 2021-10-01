@@ -3,12 +3,15 @@
 #include "painter.hpp"
 #include "ball.hpp"
 
-Pedal::Pedal(): x_(Wall::WIDTH / 2) {}
+Pedal::Pedal():
+x_(Wall::WIDTH / 2),
+surpRand(0)
+{}
 
 void Pedal::draw(Painter &p) const
 {
   p.setColor(Painter::CYAN);
-  p.bar(x_ - WIDTH / 2, Wall::HEIGHT - 35,x_ + WIDTH - WIDTH / 2, Wall::HEIGHT-30);
+  p.bar(x_ - (WIDTH-surpRand) / 2, Wall::HEIGHT - 35,x_ + (WIDTH-surpRand) - (WIDTH-surpRand) / 2, Wall::HEIGHT-30);
 }
 Force Pedal::tick(const Ball &ball)
 {
@@ -22,4 +25,10 @@ Force Pedal::tick(const Ball &ball)
 void Pedal::setX(int x)
 {
   x_ = x;
+}
+
+int Pedal::surpRoller()
+{
+    srand(time(NULL));
+    surpRand = rand() % 50 + (-50);
 }

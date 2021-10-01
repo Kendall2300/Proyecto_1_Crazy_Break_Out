@@ -136,16 +136,17 @@ Force Brick::tick(const Ball &ball){
 
 void Brick::destroy()
 {
-  if(id_ == 5){
-      if (countDownTimer_ == -1)
-          countDownTimer_ = -1;
-  }
-  else{
+    if(id_ == 5){
       if (countDownTimer_ == -1){
-          countDownTimer_ = 60;
-          destroyed=true;
+        countDownTimer_ = -1;
       }
-  }
+    }
+    else{
+      if (countDownTimer_ == -1){
+      countDownTimer_ = 60;
+      destroyed=true;
+      }
+    }
 
 }
 int Brick::getId() {

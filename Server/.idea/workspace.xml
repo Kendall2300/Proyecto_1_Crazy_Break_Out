@@ -19,9 +19,10 @@
   <component name="ChangeListManager">
     <list default="true" id="51113f19-026d-43ba-acc9-42b3968d2bf6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source_Files/ball.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/ball.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_Files/brick.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/brick.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source_Files/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source_Files/game.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/game.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_Files/pedal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/pedal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_Files/pedal.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/pedal.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source_Files/wall.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/wall.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source_Files/wall.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/wall.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" afterDir="false" />
@@ -71,19 +72,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Server" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Server" TARGET_NAME="Server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Server" RUN_TARGET_NAME="Server">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -110,6 +106,8 @@
       <workItem from="1632955320742" duration="2093000" />
       <workItem from="1632963728396" duration="17000" />
       <workItem from="1632963779993" duration="11035000" />
+      <workItem from="1633040195703" duration="10000" />
+      <workItem from="1633044686815" duration="2310000" />
     </task>
     <servers />
   </component>
