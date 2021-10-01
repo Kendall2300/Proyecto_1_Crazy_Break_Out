@@ -1,0 +1,37 @@
+\hypertarget{_socket_client_8h_source}{}\doxysection{Socket\+Client.\+h}
+\label{_socket_client_8h_source}\index{Client/Source\_Files/SocketClient.h@{Client/Source\_Files/SocketClient.h}}
+\mbox{\hyperlink{_socket_client_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <sys/socket.h>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <sys/types.h>}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include <netdb.h>}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include <string.h>}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#include <pthread.h>}}
+\DoxyCodeLine{19 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{20 \textcolor{preprocessor}{\#include <unistd.h>}}
+\DoxyCodeLine{21 \textcolor{preprocessor}{\#include <arpa/inet.h>}}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{keyword}{class }\mbox{\hyperlink{class_socket_client}{SocketClient}}\{}
+\DoxyCodeLine{27 \textcolor{keyword}{public}:}
+\DoxyCodeLine{28     \mbox{\hyperlink{class_socket_client}{SocketClient}}();}
+\DoxyCodeLine{29     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_socket_client_a14fa561ff3c5ab050e085a721861dded}{conect}}();}
+\DoxyCodeLine{30     \textcolor{keywordtype}{void} setMsj(\textcolor{keyword}{const} \textcolor{keywordtype}{char}* msn);}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32 \textcolor{keyword}{private}:}
+\DoxyCodeLine{33     \textcolor{keywordtype}{int} descriptor;}
+\DoxyCodeLine{34     sockaddr\_in info;}
+\DoxyCodeLine{35     \textcolor{keyword}{static} \textcolor{keywordtype}{void}* Controller(\textcolor{keywordtype}{void}* obj);}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 \};}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39 }
+\DoxyCodeLine{40 }
+
+\end{DoxyCode}

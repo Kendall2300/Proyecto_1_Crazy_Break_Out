@@ -1,0 +1,28 @@
+\hypertarget{pedal_8hpp_source}{}\doxysection{pedal.\+hpp}
+\label{pedal_8hpp_source}\index{Server/Source\_Files/pedal.hpp@{Server/Source\_Files/pedal.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include "{}force.hpp"{}}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <time.h>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <stdlib.h>}}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{keyword}{class }\mbox{\hyperlink{class_painter}{Painter}};}
+\DoxyCodeLine{17 \textcolor{keyword}{class }\mbox{\hyperlink{class_ball}{Ball}};}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 \textcolor{keyword}{class }\mbox{\hyperlink{class_pedal}{Pedal}}}
+\DoxyCodeLine{20 \{}
+\DoxyCodeLine{21 \textcolor{keyword}{public}:}
+\DoxyCodeLine{22   \textcolor{keyword}{enum} \{ WIDTH = 300 \};}
+\DoxyCodeLine{23   \mbox{\hyperlink{class_pedal_a7a2bd6bd3f141509e4d20ecf58b18f97}{Pedal}}();}
+\DoxyCodeLine{24   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_pedal_aec149add67735652865e78a803824b52}{draw}}(\mbox{\hyperlink{class_painter}{Painter}} \&) \textcolor{keyword}{const};}
+\DoxyCodeLine{25   \mbox{\hyperlink{struct_force}{Force}} \mbox{\hyperlink{class_pedal_a99da6ea90139b59f58d0a2cef1c6e9fe}{tick}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_ball}{Ball}} \&);}
+\DoxyCodeLine{26   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_pedal_adc15062aaf730422a9c161f2bd86daca}{setX}}(\textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{27   \textcolor{keywordtype}{int} \mbox{\hyperlink{class_pedal_a9f6b82597adda8819bbc2c103a8a81eb}{surpRoller}}();}
+\DoxyCodeLine{28 \textcolor{keyword}{private}:}
+\DoxyCodeLine{29   \textcolor{keywordtype}{int} x\_;}
+\DoxyCodeLine{30   \textcolor{keywordtype}{int} surpRand;}
+\DoxyCodeLine{31 \};}
+
+\end{DoxyCode}

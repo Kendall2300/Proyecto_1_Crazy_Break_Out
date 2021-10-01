@@ -1,0 +1,123 @@
+\hypertarget{main_8cpp}{}\doxysection{Server/\+Source\+\_\+\+Files/main.cpp File Reference}
+\label{main_8cpp}\index{Server/Source\_Files/main.cpp@{Server/Source\_Files/main.cpp}}
+
+
+Este codigo se enarga de recibir los datos del cliente y de correr toda la logica del juego.  
+
+
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include \char`\"{}Socket\+Server.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}string.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}painter.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}wall.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}GL/glut.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_a1e5b20fed15743656bb6d2e6a6ea6269}\label{main_8cpp_a1e5b20fed15743656bb6d2e6a6ea6269}} 
+void {\bfseries display} ()
+\begin{DoxyCompactList}\small\item\em Este metodo se encarga de crear la pantalla que se muertra al ejecutar el juego, asi mismo muestra el puntaje/score y el contador de cuantas bolas le quedan al usuario. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{main_8cpp_ae15138e17583650aeeacf62135d5c320}\label{main_8cpp_ae15138e17583650aeeacf62135d5c320}} 
+void {\bfseries first\+\_\+menu} ()
+\begin{DoxyCompactList}\small\item\em Este metodo se encarga de crear el menu que se visualiza antes de acceder al juego, en este puedes elegir que accion tomar. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{main_8cpp_a9a7441676bd0286080b8b965e0a89784}\label{main_8cpp_a9a7441676bd0286080b8b965e0a89784}} 
+void {\bfseries timer} (int=0)
+\begin{DoxyCompactList}\small\item\em Este metodo s eencarga de llamara al juego as\mbox{[}i como de llevar la cantidad de fps o ticks por segundo que se llevan a cabo durante la ejecucion. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_af11f2892b667b6d00093987dce2c5e3a}{mouse}} (int x, int)
+\begin{DoxyCompactList}\small\item\em Este metodo se encarga de escuchar los movimientos en x del raton para mover el pedal/barra/paddle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_ae7626cd260d63b91acac67d2a7815800}{keys}} (unsigned char key, int, int)
+\begin{DoxyCompactList}\small\item\em Este metodo se encarga de esuchar cuando el es que una tecla es oprimida para desencadera una reaccion de ser necesaria. \end{DoxyCompactList}\item 
+void $\ast$ \mbox{\hyperlink{main_8cpp_a5ea2e14336fc186a6113933ecd652ad6}{server\+Run}} (void $\ast$)
+\begin{DoxyCompactList}\small\item\em Este metodo se encarga de correr el socket servidor. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Este metodo se encarga de correr y llamar a todos los metodos para ejecutar el programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_ac6a5ed6191fcf3a5bf0445921feb4f48}\label{main_8cpp_ac6a5ed6191fcf3a5bf0445921feb4f48}} 
+\mbox{\hyperlink{class_game}{Game}} {\bfseries game}
+\item 
+\mbox{\Hypertarget{main_8cpp_a1fb750a4566afc9ddc4dbcee1f52a6c4}\label{main_8cpp_a1fb750a4566afc9ddc4dbcee1f52a6c4}} 
+\mbox{\hyperlink{class_socket_server}{Socket\+Server}} $\ast$ {\bfseries server}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Este codigo se enarga de recibir los datos del cliente y de correr toda la logica del juego. 
+
+\begin{DoxyAuthor}{Authors}
+Kendall Martinez Carvajal (\href{mailto:kendallmc@estudiantec.cr}{\texttt{ kendallmc@estudiantec.\+cr}}) \&\& Daniel Urena Lopez (\href{mailto:dlurena24@estudiantec.cr}{\texttt{ dlurena24@estudiantec.\+cr}})
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2021 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_ae7626cd260d63b91acac67d2a7815800}\label{main_8cpp_ae7626cd260d63b91acac67d2a7815800}} 
+\index{main.cpp@{main.cpp}!keys@{keys}}
+\index{keys@{keys}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{keys()}{keys()}}
+{\footnotesize\ttfamily void keys (\begin{DoxyParamCaption}\item[{unsigned char}]{key,  }\item[{int}]{,  }\item[{int}]{ }\end{DoxyParamCaption})}
+
+
+
+Este metodo se encarga de esuchar cuando el es que una tecla es oprimida para desencadera una reaccion de ser necesaria. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & char que corresponde a la tecla oprimida \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}\label{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Este metodo se encarga de correr y llamar a todos los metodos para ejecutar el programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & int \\
+\hline
+{\em argv} & char \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int que se encarga de finalizar la ejecucion 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8cpp_af11f2892b667b6d00093987dce2c5e3a}\label{main_8cpp_af11f2892b667b6d00093987dce2c5e3a}} 
+\index{main.cpp@{main.cpp}!mouse@{mouse}}
+\index{mouse@{mouse}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{mouse()}{mouse()}}
+{\footnotesize\ttfamily void mouse (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{ }\end{DoxyParamCaption})}
+
+
+
+Este metodo se encarga de escuchar los movimientos en x del raton para mover el pedal/barra/paddle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & integer que corresponde al valor de x que posee el puntero del mouse. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a5ea2e14336fc186a6113933ecd652ad6}\label{main_8cpp_a5ea2e14336fc186a6113933ecd652ad6}} 
+\index{main.cpp@{main.cpp}!serverRun@{serverRun}}
+\index{serverRun@{serverRun}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{serverRun()}{serverRun()}}
+{\footnotesize\ttfamily void $\ast$ server\+Run (\begin{DoxyParamCaption}\item[{void $\ast$}]{ }\end{DoxyParamCaption})}
+
+
+
+Este metodo se encarga de correr el socket servidor. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}

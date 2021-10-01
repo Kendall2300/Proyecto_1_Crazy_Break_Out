@@ -1,0 +1,93 @@
+\hypertarget{class_pedal}{}\doxysection{Pedal Class Reference}
+\label{class_pedal}\index{Pedal@{Pedal}}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_pedal_a69580c2f31c0208c4d4e51540112f25d}\label{class_pedal_a69580c2f31c0208c4d4e51540112f25d}} 
+enum \{ {\bfseries WIDTH} = 300
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_pedal_a7a2bd6bd3f141509e4d20ecf58b18f97}\label{class_pedal_a7a2bd6bd3f141509e4d20ecf58b18f97}} 
+{\bfseries Pedal} ()
+\begin{DoxyCompactList}\small\item\em Este metodo se encarga de crear al objeto. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pedal_aec149add67735652865e78a803824b52}{draw}} (\mbox{\hyperlink{class_painter}{Painter}} \&) const
+\begin{DoxyCompactList}\small\item\em Este metodo se encarga de dibujar el objeto. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_force}{Force}} \mbox{\hyperlink{class_pedal_a99da6ea90139b59f58d0a2cef1c6e9fe}{tick}} (const \mbox{\hyperlink{class_ball}{Ball}} \&)
+\begin{DoxyCompactList}\small\item\em Este metodo se encarga de actualizar la fuerza con que la barra repele a la bola cada ciertos ticks. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pedal_adc15062aaf730422a9c161f2bd86daca}{setX}} (int x)
+\begin{DoxyCompactList}\small\item\em Este metodo se encarga de colocar la posicion x de la barra. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_pedal_a9f6b82597adda8819bbc2c103a8a81eb}{surp\+Roller}} ()
+\begin{DoxyCompactList}\small\item\em Este metodo se encarga de cambiar el tamanio de la barra de forma aleatoria cuando se destruye un bloque sorpresa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_pedal_aec149add67735652865e78a803824b52}\label{class_pedal_aec149add67735652865e78a803824b52}} 
+\index{Pedal@{Pedal}!draw@{draw}}
+\index{draw@{draw}!Pedal@{Pedal}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Pedal\+::draw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_painter}{Painter}} \&}]{p }\end{DoxyParamCaption}) const}
+
+
+
+Este metodo se encarga de dibujar el objeto. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_pedal_adc15062aaf730422a9c161f2bd86daca}\label{class_pedal_adc15062aaf730422a9c161f2bd86daca}} 
+\index{Pedal@{Pedal}!setX@{setX}}
+\index{setX@{setX}!Pedal@{Pedal}}
+\doxysubsubsection{\texorpdfstring{setX()}{setX()}}
+{\footnotesize\ttfamily void Pedal\+::setX (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Este metodo se encarga de colocar la posicion x de la barra. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_pedal_a9f6b82597adda8819bbc2c103a8a81eb}\label{class_pedal_a9f6b82597adda8819bbc2c103a8a81eb}} 
+\index{Pedal@{Pedal}!surpRoller@{surpRoller}}
+\index{surpRoller@{surpRoller}!Pedal@{Pedal}}
+\doxysubsubsection{\texorpdfstring{surpRoller()}{surpRoller()}}
+{\footnotesize\ttfamily int Pedal\+::surp\+Roller (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Este metodo se encarga de cambiar el tamanio de la barra de forma aleatoria cuando se destruye un bloque sorpresa. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pedal_a99da6ea90139b59f58d0a2cef1c6e9fe}\label{class_pedal_a99da6ea90139b59f58d0a2cef1c6e9fe}} 
+\index{Pedal@{Pedal}!tick@{tick}}
+\index{tick@{tick}!Pedal@{Pedal}}
+\doxysubsubsection{\texorpdfstring{tick()}{tick()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_force}{Force}} Pedal\+::tick (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_ball}{Ball}} \&}]{ball }\end{DoxyParamCaption})}
+
+
+
+Este metodo se encarga de actualizar la fuerza con que la barra repele a la bola cada ciertos ticks. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ball} & obj hace referencia la bola \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+un valor de tipo force 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Server/\+Source\+\_\+\+Files/pedal.\+hpp\item 
+Server/\+Source\+\_\+\+Files/\mbox{\hyperlink{pedal_8cpp}{pedal.\+cpp}}\end{DoxyCompactItemize}
