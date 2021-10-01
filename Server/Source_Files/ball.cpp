@@ -3,9 +3,11 @@
 #include "wall.hpp"
 
 Ball::Ball(): x_(Wall::WIDTH / 2),
-	      y_(Wall::HEIGHT - 50),
-	      vx_(160),
-	      vy_(-160){}
+	      y_(Wall::HEIGHT - 400),
+          surpRand(0),
+	      vx_(0),
+	      vy_(150)
+          {}
 
 void Ball::draw(Painter &p) const
 {
@@ -27,8 +29,14 @@ void Ball::tick(Force f)
   if (y < -LIM)
     y = -LIM;
 
-  vx_ += 20 * x;
+  vx_ += 12 * x;
   vy_ += 20 * y;
   x_ += vx_ * DT;
   y_ += vy_ * DT;
+}
+
+int Ball::surpRoller()
+{
+    srand(time(NULL));
+    surpRand = rand() % 3 + (-3);
 }
