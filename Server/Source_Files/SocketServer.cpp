@@ -48,7 +48,6 @@ bool SocketServer::bind_kernell(){
 /**
  * @brief
  * Este metodo se encarga de hacer funcionar al servidor asi como crear el socket y revisar la conexion con el kernell
-
  *
  */
 void SocketServer::run() {
@@ -80,7 +79,12 @@ void SocketServer::run() {
     }
     close(descriptor);
 }
-
+/**
+ * @brief
+ * Este metodo se encarga de controlar los datos de informacion enviados por el ciente en forma de objetos.
+ * @param obj Un objeto que se transforma en formato string
+ * @return
+ */
 void * SocketServer::clientController(void *obj){
     dataSocket* data = (dataSocket *)obj;
     while(true){
@@ -104,6 +108,11 @@ void * SocketServer::clientController(void *obj){
     pthread_exit(NULL);
 }
 
+/**
+ * @brief
+ * Este metodo convierte los mensajes a chars para luego enviarlos al cliente.
+ * @param msn char
+ */
 void SocketServer::setMsj(const char *msn) {
     for(int i = 0; i < clients.size(); i++){
         send(clients[i], msn, strlen(msn), 0);
