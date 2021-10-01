@@ -1,3 +1,13 @@
+/**
+ * @file SocketClient.h
+ * @authors Kendall Martinez Carvajal (kendallmc@estudiantec.cr) && Daniel Urena Lopez (dlurena24@estudiantec.cr)
+ * @brief
+ * Este codigo es la definicion de los atributos y metodos del SocketCLient.
+ *
+ * @version 1.0
+ *
+ * @copyright Copyright (c) 2021
+ */
 #pragma once
 
 #include <sys/socket.h>

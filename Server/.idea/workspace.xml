@@ -18,9 +18,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51113f19-026d-43ba-acc9-42b3968d2bf6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Source_Files/wall.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/wall.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Server" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Source_Files/SocketClient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Source_Files/SocketClient.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Source_Files/SocketClient.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Source_Files/SocketClient.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Source_Files/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Source_Files/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -15,9 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4fb904d-ef30-4815-a45a-85e411bf3832" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/wall.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/wall.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/cmake-build-debug/Server" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/cmake-build-debug/Server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_Files/SocketClient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/SocketClient.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_Files/SocketClient.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/SocketClient.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_Files/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <workItem from="1632347569145" duration="9066000" />
       <workItem from="1632963747150" duration="369000" />
       <workItem from="1632965027072" duration="794000" />
-      <workItem from="1633039911778" duration="697000" />
+      <workItem from="1633039911778" duration="2402000" />
     </task>
     <servers />
   </component>

@@ -1,9 +1,25 @@
+/**
+ * @file main.cpp
+ * @authors Kendall Martinez Carvajal (kendallmc@estudiantec.cr) && Daniel Urena Lopez (dlurena24@estudiantec.cr)
+ * @brief
+ * ESte codigo recibe datos necesarios para conectarse a un servidor donde se hostera una partida del Arkanoid/Breakout
+ * el cual utiliza sockets para la conexion entre los dos.
+ * @version 1.0
+ *
+ * @copyright Copyright (c) 2021
+ */
 #include "SocketClient.h"
 #include "cstring"
 #include "iostream"
 
 using namespace std;
 SocketClient* client;
+
+/**
+ * @brief
+ * ESte metodo se encarga de ...
+ * @return
+ */
 
 void * clientRun(void * ){
     try{
@@ -13,6 +29,15 @@ void * clientRun(void * ){
     }
     pthread_exit(NULL);
 }
+
+/**
+ * @brief
+ * Este es el metodo principal el mismo se encarga de llamar a todas los demas metodos para llevar a cabo los procedimientos
+ * requeridos
+ *
+ * @return int Retorna un valor que termina el programa
+ */
+
 int main(){
     client = new SocketClient;
     pthread_t hiloC;

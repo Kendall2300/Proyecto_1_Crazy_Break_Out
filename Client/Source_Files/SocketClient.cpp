@@ -1,7 +1,22 @@
+/**
+ * @file SocketClient.cpp
+ * @authors Kendall Martinez Carvajal (kendallmc@estudiantec.cr) && Daniel Urena Lopez (dlurena24@estudiantec.cr)
+ * @brief
+ * Este codigo manipula los metodos creados por el header, para el socket del cliente.
+ *
+ * @version 1.0
+ *
+ * @copyright Copyright (c) 2021
+ */
 #include "SocketClient.h"
 
 SocketClient::SocketClient(){}
 
+/**
+ * @brief
+ * Este metodo permite la conexion entre el cliente y el servidor
+ *
+ */
 void SocketClient::conect(){
     descriptor = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP); 
     if(descriptor < 0){
@@ -23,6 +38,12 @@ void SocketClient::conect(){
     pthread_detach(hilo);
 }
 
+/**
+ * @brief
+ * Este metodo se encarga de controlar los mensajes entre el servidor y el cliente
+ * @param obj Un objeto que es convertido a un mensaje
+ * @return
+ */
 void * SocketClient::Controller(void *obj){
     SocketClient* c = (SocketClient *)obj;
     while(true){
