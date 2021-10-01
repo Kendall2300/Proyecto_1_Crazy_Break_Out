@@ -90,12 +90,6 @@
 		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/SocketServer.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/User.cpp">
-			<Option target="Server"/>
-		</Unit>
-		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/User.h">
-			<Option target="Server"/>
-		</Unit>
 		<Unit filename="/home/dlurena24/Documents/TEC&apos;S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.cpp">
 			<Option target="Server"/>
 		</Unit>

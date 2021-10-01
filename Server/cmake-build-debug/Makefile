@@ -153,30 +153,6 @@ Source_Files/SocketServer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.s
 .PHONY : Source_Files/SocketServer.cpp.s
 
-Source_Files/User.o: Source_Files/User.cpp.o
-.PHONY : Source_Files/User.o
-
-# target to build an object file
-Source_Files/User.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/User.cpp.o
-.PHONY : Source_Files/User.cpp.o
-
-Source_Files/User.i: Source_Files/User.cpp.i
-.PHONY : Source_Files/User.i
-
-# target to preprocess a source file
-Source_Files/User.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/User.cpp.i
-.PHONY : Source_Files/User.cpp.i
-
-Source_Files/User.s: Source_Files/User.cpp.s
-.PHONY : Source_Files/User.s
-
-# target to generate assembly for a file
-Source_Files/User.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/User.cpp.s
-.PHONY : Source_Files/User.cpp.s
-
 Source_Files/ball.o: Source_Files/ball.cpp.o
 .PHONY : Source_Files/ball.o
 
@@ -381,9 +357,6 @@ help:
 	@echo "... Source_Files/SocketServer.o"
 	@echo "... Source_Files/SocketServer.i"
 	@echo "... Source_Files/SocketServer.s"
-	@echo "... Source_Files/User.o"
-	@echo "... Source_Files/User.i"
-	@echo "... Source_Files/User.s"
 	@echo "... Source_Files/ball.o"
 	@echo "... Source_Files/ball.i"
 	@echo "... Source_Files/ball.s"

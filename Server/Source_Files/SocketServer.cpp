@@ -9,9 +9,7 @@
  * @copyright Copyright (c) 2021
  */
 #include "SocketServer.h"
-#include "User.h"
 
-User u;
 SocketServer::SocketServer()
 //clientInfoCounter(0)
 {}
@@ -110,26 +108,21 @@ void * SocketServer::clientController(void *obj){
         string clientUsername;
         string clientIp;
         string clientPuerto;
-
 //        cout << message << " yep" << endl;
-        if(u.getCtr() == 0){
+        if(clientInfoCounter == 0){
             clientUsername = message;
-            u.setCtr(2);
-            cout << "0"<< clientUsername << endl;
-            u.setClientUsername(clientUsername);
+            clientInfoCounter++;
+            cout << clientUsername << endl;
         }
-        else if(u.getCtr() == 2){
+        if(clientInfoCounter == 1){
             clientIp = message;
-            u.setCtr(4);
-            cout << "1"<< clientIp << endl;
-            u.setClientIp(clientIp);
+            clientInfoCounter++;
+            cout << clientIp << endl;
         }
-        else if(u.getCtr() == 4){
+        if(clientInfoCounter == 3){
             clientPuerto = message;
-            cout << "2"<< clientPuerto << endl;
-            u.setClientPuerto(clientPuerto);
-            cout << "Listos para iniciar" << endl;
-            u.setBeginGame(true);
+            clientInfoCounter++;
+            cout << clientPuerto << endl;
         }
 
     }

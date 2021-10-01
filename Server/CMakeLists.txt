@@ -24,7 +24,7 @@ add_executable(Server
         Source_Files/SocketServer.h
         Source_Files/wall.cpp
         Source_Files/wall.hpp
-        Source_Files/User.cpp Source_Files/User.h)
+        )
 
 find_package(OpenGL REQUIRED COMPONENTS OpenGL)
 find_package(GLUT REQUIRED)
