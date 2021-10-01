@@ -1,3 +1,13 @@
+/**
+ * @file brick.h
+ * @authors Kendall Martinez Carvajal (kendallmc@estudiantec.cr) && Daniel Urena Lopez (dlurena24@estudiantec.cr)
+ * @brief
+ * Este codigo es la definicion de los atributos y metodos del brick.
+ *
+ * @version 1.0
+ *
+ * @copyright Copyright (c) 2021
+ */
 #pragma once
 #include "force.hpp"
 #include "painter.hpp"

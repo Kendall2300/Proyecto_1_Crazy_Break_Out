@@ -15,9 +15,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4fb904d-ef30-4815-a45a-85e411bf3832" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Source_Files/SocketClient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/SocketClient.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source_Files/SocketClient.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/SocketClient.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source_Files/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/ball.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/ball.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/ball.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/brick.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/brick.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/brick.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/brick.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/force.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/force.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/force.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/force.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +50,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -53,11 +58,6 @@
   </component>
   <component name="RunManager">
     <configuration name="Client" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Client" TARGET_NAME="Client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Client" RUN_TARGET_NAME="Client">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -85,6 +85,7 @@
       <workItem from="1632963747150" duration="369000" />
       <workItem from="1632965027072" duration="794000" />
       <workItem from="1633039911778" duration="2402000" />
+      <workItem from="1633051691316" duration="1270000" />
     </task>
     <servers />
   </component>
