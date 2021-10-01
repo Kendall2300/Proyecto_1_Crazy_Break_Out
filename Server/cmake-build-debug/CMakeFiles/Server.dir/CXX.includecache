@@ -6,35 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.hpp
-force.hpp
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
-
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/brick.hpp
-force.hpp
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
-painter.hpp
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.hpp
-
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
-
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.hpp
-
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/wall.cpp
-wall.hpp
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/wall.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.cpp
 ball.hpp
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.hpp
-iostream
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/iostream
-GL/glut.h
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/GL/glut.h
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.hpp
+painter.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.hpp
+wall.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/wall.hpp
 
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/wall.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.hpp
 force.hpp
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
+time.h
+-
+stdlib.h
+-
+
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/brick.hpp
+force.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
+painter.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.hpp
+
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
+
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/painter.hpp
+
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/wall.hpp
+force.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.hpp
 brick.hpp
-/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/brick.hpp
+/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Server/Source_Files/brick.hpp
 vector
 -
 stdlib.h

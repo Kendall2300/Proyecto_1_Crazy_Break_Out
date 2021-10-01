@@ -33,6 +33,7 @@ void Game::tick()
   }
   if(wall_.getItsSurprise()){
       pedal_.surpRoller();
+      ball_.surpRoller();
       wall_.setItsSurprise(false);
   }
 }
