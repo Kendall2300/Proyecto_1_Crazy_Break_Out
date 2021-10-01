@@ -11,25 +11,26 @@ class Ball;
 class Wall
 {
 public:
-  enum { ROWS_COUNT = 16,
-	 COLS_COUNT = 8 * 3 };
-  enum { WIDTH = ROWS_COUNT * Brick::WIDTH,
-	 HEIGHT = COLS_COUNT * Brick::HEIGHT };
-  Wall();
-  void draw(Painter &) const;
-  Force tick(const Ball &);
-  int getScore();
+    enum { ROWS_COUNT = 16, COLS_COUNT = 8 * 3 };
+    enum { WIDTH = ROWS_COUNT * Brick::WIDTH, HEIGHT = COLS_COUNT * Brick::HEIGHT };
+    Wall();
+    void draw(Painter &) const;
+    Force tick(const Ball &);
+    bool getItsSurprise();
+    bool setItsSurprise(bool b);
+
 public:
-  typedef std::vector<Brick> Bricks;
-  Bricks bricks_;
-  int randNumx;
-  int randNumy;
-  int commonBrick = 1;
-  int doubleBrick = 2;
-  int tripleBrick = 3;
-  int inBrick = 4;
-  int deepBrick = 5;
-  int surpriseBrick = 6;
-  int id_;
-  int score=0;
+    typedef std::vector<Brick> Bricks;
+    Bricks bricks_;
+    int randNumx;
+    int randNumy;
+    int commonBrick = 1;
+    int doubleBrick = 2;
+    int tripleBrick = 3;
+    int inBrick = 4;
+    int deepBrick = 5;
+    int surpriseBrick = 6;
+    int id_;
+    int score = 0;
+    bool itsSurprise = false;
 };

@@ -31,4 +31,8 @@ void Game::tick()
       }
       cout << "Balls:" << ballCounter << endl;
   }
+  if(wall_.getItsSurprise()){
+      pedal_.surpRoller();
+      wall_.setItsSurprise(false);
+  }
 }

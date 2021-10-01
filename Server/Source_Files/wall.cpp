@@ -14,27 +14,10 @@ Wall::Wall() //Creación de bricks
 
     id_ = rand() % 6 + 1;
     for (int row = 0; row < 10; ++row){
-        /*if(row == randNumy && counter<=3){
-            for (int col = 0; col < COLS_COUNT; ++col){
-                if(col == randNumx /*&& counter<=3){
-                    bricks_.push_back(Brick(col, row, ematoma));
-                    randNumx = rand() % 16 + randNumx;
-                    //randNumy ++;
-                    ematoma = rand() % 6;
-                    counter ++;
-                }
-                else {
-                    bricks_.push_back(Brick(col, row, commonBrick));
-                }
-                randNumy ++;
-            }
+        for (int col = 0; col < COLS_COUNT; ++col) {
+            bricks_.push_back(Brick(col, row, id_));
+            id_ = rand() % 6 + 1;
         }
-        else{*/
-            for (int col = 0; col < COLS_COUNT; ++col){
-                    bricks_.push_back(Brick(col, row, id_));
-                    id_ = rand() % 6 + 1;
-            }
-        /*}*/
     }
 }
 
@@ -80,6 +63,9 @@ Force Wall::tick(const Ball &ball)
                 else{
                     i->setDtcounter(1);
                 }
+            }if(i->getId()==6){
+                itsSurprise = true;
+                cout << "SIUUUUUU" << endl;
             }
             //cout<<score<<endl;
         }
@@ -90,4 +76,11 @@ Force Wall::tick(const Ball &ball)
 }
 int Wall::getScore() {
     return score;
+
+bool Wall::getItsSurprise(){
+    return itsSurprise;
+}
+
+bool Wall::setItsSurprise(bool b){
+    itsSurprise = b;
 }
