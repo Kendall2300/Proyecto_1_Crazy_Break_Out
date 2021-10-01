@@ -3,7 +3,11 @@
 
 CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.o: \
  ../Source_Files/SocketServer.cpp \
- ../Source_Files/SocketServer.h
+ ../Source_Files/SocketServer.h \
+ ../Source_Files/User.h
+CMakeFiles/Server.dir/Source_Files/User.cpp.o: \
+ ../Source_Files/User.cpp \
+ ../Source_Files/User.h
 CMakeFiles/Server.dir/Source_Files/ball.cpp.o: \
  ../Source_Files/ball.cpp \
  ../Source_Files/ball.hpp \
@@ -31,6 +35,7 @@ CMakeFiles/Server.dir/Source_Files/game.cpp.o: \
  ../Source_Files/wall.hpp
 CMakeFiles/Server.dir/Source_Files/main.cpp.o: \
  ../Source_Files/SocketServer.h \
+ ../Source_Files/User.h \
  ../Source_Files/ball.hpp \
  ../Source_Files/brick.hpp \
  ../Source_Files/force.hpp \

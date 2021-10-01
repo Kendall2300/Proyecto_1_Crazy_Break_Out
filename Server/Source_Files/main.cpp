@@ -15,6 +15,8 @@
 #include "wall.hpp"
 #include "game.hpp"
 #include "GL/glut.h"
+#include "User.h"
+
 
 using namespace std;
 Game game;
@@ -147,6 +149,7 @@ void * serverRun(void *){
  * @return int que se encarga de finalizar la ejecucion
  */
 int main(int argc, char **argv){
+    User u;
     server = new SocketServer;
     pthread_t hiloS;
     pthread_create(&hiloS, 0, serverRun, NULL);
@@ -157,23 +160,25 @@ int main(int argc, char **argv){
         string msn;
         cin >> msn;
         if(msn == "b"){
-            //Llamando al juego base
-            glutInit(&argc, argv);
-            glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
-            glutInitWindowSize(
-                    Wall::WIDTH,
-                    Wall::HEIGHT);
-            glutInitWindowPosition(200, 100);
-            glutCreateWindow("Breakout");
-            glClearColor(0, 0, 0, 1.0);
-            glMatrixMode(GL_PROJECTION);
-            glLoadIdentity();
-            glOrtho(0, Wall::WIDTH, Wall::HEIGHT, 0, -1.0, 1.0);
-            glutDisplayFunc(first_menu);
-            glutKeyboardFunc(keys);
-            glutPassiveMotionFunc(mouse);
-            glutMainLoop();
-            break;
+            if(u.isBeginGame()){
+                //Llamando al juego base
+                glutInit(&argc, argv);
+                glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
+                glutInitWindowSize(
+                        Wall::WIDTH,
+                        Wall::HEIGHT);
+                glutInitWindowPosition(200, 100);
+                glutCreateWindow("Breakout");
+                glClearColor(0, 0, 0, 1.0);
+                glMatrixMode(GL_PROJECTION);
+                glLoadIdentity();
+                glOrtho(0, Wall::WIDTH, Wall::HEIGHT, 0, -1.0, 1.0);
+                glutDisplayFunc(first_menu);
+                glutKeyboardFunc(keys);
+                glutPassiveMotionFunc(mouse);
+                glutMainLoop();
+                break;
+            }
         }
         server->setMsj(json.c_str());
     }

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.o"
+  "CMakeFiles/Server.dir/Source_Files/User.cpp.o"
   "CMakeFiles/Server.dir/Source_Files/ball.cpp.o"
   "CMakeFiles/Server.dir/Source_Files/brick.cpp.o"
   "CMakeFiles/Server.dir/Source_Files/force.cpp.o"

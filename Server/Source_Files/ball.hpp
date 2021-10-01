@@ -1,6 +1,3 @@
-#pragma once
-#include "force.hpp"
-#include <time.h>
 /**
  * @file ball.h
  * @authors Kendall Martinez Carvajal (kendallmc@estudiantec.cr) && Daniel Urena Lopez (dlurena24@estudiantec.cr)
@@ -11,7 +8,11 @@
  *
  * @copyright Copyright (c) 2021
  */
- #include <stdlib.h>
+
+#pragma once
+#include "force.hpp"
+#include <time.h>
+#include <stdlib.h>
 
 class Painter;
 
