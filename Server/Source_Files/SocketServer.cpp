@@ -10,7 +10,9 @@
  */
 #include "SocketServer.h"
 
-SocketServer::SocketServer() {}
+SocketServer::SocketServer()
+//clientInfoCounter(0)
+{}
 
 /**
  * @brief
@@ -102,7 +104,27 @@ void * SocketServer::clientController(void *obj){
                 break;
             }
         }
-        cout << message << endl;
+        int clientInfoCounter = 0;
+        string clientUsername;
+        string clientIp;
+        string clientPuerto;
+//        cout << message << " yep" << endl;
+        if(clientInfoCounter == 0){
+            clientUsername = message;
+            clientInfoCounter++;
+            cout << clientUsername << endl;
+        }
+        if(clientInfoCounter == 1){
+            clientIp = message;
+            clientInfoCounter++;
+            cout << clientIp << endl;
+        }
+        if(clientInfoCounter == 3){
+            clientPuerto = message;
+            clientInfoCounter++;
+            cout << clientPuerto << endl;
+        }
+
     }
     close(data->descriptor);
     pthread_exit(NULL);
@@ -117,4 +139,5 @@ void SocketServer::setMsj(const char *msn) {
     for(int i = 0; i < clients.size(); i++){
         send(clients[i], msn, strlen(msn), 0);
     }
+
 }

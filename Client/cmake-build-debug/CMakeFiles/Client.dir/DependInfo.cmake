@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/SocketClient.cpp" "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.o"
-  "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/Source_Files/main.cpp" "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles/Client.dir/Source_Files/main.cpp.o"
+  "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/SocketClient.cpp" "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles/Client.dir/Source_Files/SocketClient.cpp.o"
+  "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/Source_Files/main.cpp" "/home/dlurena24/Documents/TEC'S DOCS/ALGORITMOS Y ESTRUCTURAS DE DATOS II /Projecto 1/Programa/Proyecto_1_Crazy_Break_Out/Client/cmake-build-debug/CMakeFiles/Client.dir/Source_Files/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

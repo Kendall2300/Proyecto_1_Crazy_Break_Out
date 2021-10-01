@@ -36,6 +36,10 @@ private:
     int descriptor;
     sockaddr_in info;
     vector<int> clients;
+//    string clientUsername;
+//    string clientIp;
+//    string clientPuerto;
+//    int clientInfoCounter;
 
     bool create_socket();
     bool bind_kernell();

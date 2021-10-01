@@ -55,17 +55,20 @@ int main(){
             //Obteniendo los datos
             cout << "Bienvenido al menu de conexion!" << endl;
             cout << "Por favor ingrese el nombre del usuario"<<endl;
-            string User_Name;
-            cin >> User_Name;
-            cout << "Tu nombre de usuario es: "+User_Name<<endl;
+            string user_Name;
+            cin >> user_Name;
+            cout << "Tu nombre de usuario es: "+user_Name<<endl;
+            client->setMsj(user_Name.c_str());
             cout << "Ingresa la Ip del servidor"<<endl;
-            string Ip;
-            cin >> Ip;
-            cout << "Se usara la siguiente ip: "+Ip << endl;
+            string ip;
+            cin >> ip;
+            cout << "Se usara la siguiente ip: "+ip << endl;
+            client->setMsj(ip.c_str());
             cout << "Ingrese el puerto del servidor" << endl;
-            string Puerto;
-            cin >> Puerto;
-            cout << "EL puerto a utilizar sera el siguiente: "+Puerto << endl;
+            string puerto;
+            cin >> puerto;
+            cout << "EL puerto a utilizar sera el siguiente: "+puerto << endl;
+            client->setMsj(puerto.c_str());
             cout << "Pronto te redireccionaremos al menu del juego!!" << endl;
         }
         client->setMsj(json.c_str());
