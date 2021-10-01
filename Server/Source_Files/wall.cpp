@@ -74,9 +74,6 @@ Force Wall::tick(const Ball &ball)
 
   return result;
 }
-int Wall::getScore() {
-    return score;
-
 bool Wall::getItsSurprise(){
     return itsSurprise;
 }
