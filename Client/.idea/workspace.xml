@@ -16,13 +16,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f4fb904d-ef30-4815-a45a-85e411bf3832" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/ball.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/ball.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/ball.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/brick.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/brick.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/brick.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/brick.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/force.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/force.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/force.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/force.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/game.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/game.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/painter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/painter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/painter.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/painter.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/pedal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/pedal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Source_Files/pedal.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Source_Files/pedal.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,3 +1,13 @@
+/**
+ * @file pedall.hpp
+ * @authors Kendall Martinez Carvajal (kendallmc@estudiantec.cr) && Daniel Urena Lopez (dlurena24@estudiantec.cr)
+ * @brief
+ * Este codigo define los metodos y atributos creados para la clase pedal.
+ *
+ * @version 1.0
+ *
+ * @copyright Copyright (c) 2021
+ */
 #pragma once
 #include "force.hpp"
 #include <time.h>

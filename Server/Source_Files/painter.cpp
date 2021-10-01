@@ -1,7 +1,25 @@
+/**
+ * @file painter.cpp
+ * @authors Kendall Martinez Carvajal (kendallmc@estudiantec.cr) && Daniel Urena Lopez (dlurena24@estudiantec.cr)
+ * @brief
+ * Este codigo manipula los metodos creados por el header, para pintar y dibujar los objetos.
+ *
+ * @version 1.0
+ *
+ * @copyright Copyright (c) 2021
+ */
 #include "painter.hpp"
 #include <GL/gl.h>
 #include <math.h>
 
+/**
+ * @brief
+ * ESte metodo se encarga de establecer la posicion y dibujar el contorno del objeto.
+ * @param x1 int coordenada x1
+ * @param y1 int coordenada y1
+ * @param x2 int coordenada x2
+ * @param y2 int coordenada y2
+ */
 void Painter::bar(int x1, int y1, int x2, int y2)
 {
   glBegin(GL_QUADS);
@@ -12,6 +30,13 @@ void Painter::bar(int x1, int y1, int x2, int y2)
   glEnd();
 }
 
+
+/**
+ * @brief
+ * Este metodo dibuja el contorno de la bola y define su ubicacion en x e y
+ * @param x int coordenada x
+ * @param y int coordenada y
+ */
 void Painter::ball(int x, int y)
 {
   glBegin(GL_POLYGON);
@@ -27,6 +52,11 @@ void Painter::ball(int x, int y)
   glEnd();
 }
 
+/**
+ * @brief
+ * Este metodo se encarga de pintar por colores el relleno de los objetos que ya poseen contorno
+ * @param color obj Que refiere al color del objeto
+ */
 void Painter::setColor(Color color)
 {
   static const struct

@@ -1,3 +1,13 @@
+/**
+ * @file painter.hpp
+ * @authors Kendall Martinez Carvajal (kendallmc@estudiantec.cr) && Daniel Urena Lopez (dlurena24@estudiantec.cr)
+ * @brief
+ * Este codigo define los metodos y atributos creados para dibujar y pintar de un color especifico cada bloque.
+ *
+ * @version 1.0
+ *
+ * @copyright Copyright (c) 2021
+ */
 #pragma once
 
 class Painter

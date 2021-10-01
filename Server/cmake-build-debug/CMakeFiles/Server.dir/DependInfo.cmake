@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/SocketServer.cpp" "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles/Server.dir/Source_Files/SocketServer.cpp.o"
   "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/ball.cpp" "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles/Server.dir/Source_Files/ball.cpp.o"
-  "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/breakout.cpp" "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles/Server.dir/Source_Files/breakout.cpp.o"
   "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/brick.cpp" "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles/Server.dir/Source_Files/brick.cpp.o"
   "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/force.cpp" "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles/Server.dir/Source_Files/force.cpp.o"
   "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/Source_Files/game.cpp" "/home/kendall/Escritorio/Proyectos/Proyecto_1_Crazy_Break_Out/Server/cmake-build-debug/CMakeFiles/Server.dir/Source_Files/game.cpp.o"

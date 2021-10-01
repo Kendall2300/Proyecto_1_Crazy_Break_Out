@@ -177,30 +177,6 @@ Source_Files/ball.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/ball.cpp.s
 .PHONY : Source_Files/ball.cpp.s
 
-Source_Files/breakout.o: Source_Files/breakout.cpp.o
-.PHONY : Source_Files/breakout.o
-
-# target to build an object file
-Source_Files/breakout.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/breakout.cpp.o
-.PHONY : Source_Files/breakout.cpp.o
-
-Source_Files/breakout.i: Source_Files/breakout.cpp.i
-.PHONY : Source_Files/breakout.i
-
-# target to preprocess a source file
-Source_Files/breakout.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/breakout.cpp.i
-.PHONY : Source_Files/breakout.cpp.i
-
-Source_Files/breakout.s: Source_Files/breakout.cpp.s
-.PHONY : Source_Files/breakout.s
-
-# target to generate assembly for a file
-Source_Files/breakout.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Source_Files/breakout.cpp.s
-.PHONY : Source_Files/breakout.cpp.s
-
 Source_Files/brick.o: Source_Files/brick.cpp.o
 .PHONY : Source_Files/brick.o
 
@@ -384,9 +360,6 @@ help:
 	@echo "... Source_Files/ball.o"
 	@echo "... Source_Files/ball.i"
 	@echo "... Source_Files/ball.s"
-	@echo "... Source_Files/breakout.o"
-	@echo "... Source_Files/breakout.i"
-	@echo "... Source_Files/breakout.s"
 	@echo "... Source_Files/brick.o"
 	@echo "... Source_Files/brick.i"
 	@echo "... Source_Files/brick.s"
