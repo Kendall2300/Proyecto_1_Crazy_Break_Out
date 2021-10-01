@@ -18,13 +18,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51113f19-026d-43ba-acc9-42b3968d2bf6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source_Files/ball.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/ball.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source_Files/ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/ball.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source_Files/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Server" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_Files/brick.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/brick.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_Files/brick.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/brick.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_Files/force.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/force.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_Files/force.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source_Files/force.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Client" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -104,7 +105,7 @@
       <workItem from="1632963728396" duration="17000" />
       <workItem from="1632963779993" duration="11035000" />
       <workItem from="1633040195703" duration="10000" />
-      <workItem from="1633044686815" duration="6147000" />
+      <workItem from="1633044686815" duration="7737000" />
     </task>
     <servers />
   </component>

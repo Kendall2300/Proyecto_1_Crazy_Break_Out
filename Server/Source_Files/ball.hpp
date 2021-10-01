@@ -1,7 +1,17 @@
 #pragma once
 #include "force.hpp"
 #include <time.h>
-#include <stdlib.h>
+/**
+ * @file ball.h
+ * @authors Kendall Martinez Carvajal (kendallmc@estudiantec.cr) && Daniel Urena Lopez (dlurena24@estudiantec.cr)
+ * @brief
+ * Este codigo es la definicion de los atributos y metodos del ball.cpp
+ *
+ * @version 1.0
+ *
+ * @copyright Copyright (c) 2021
+ */
+ #include <stdlib.h>
 
 class Painter;
 

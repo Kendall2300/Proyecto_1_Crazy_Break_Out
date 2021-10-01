@@ -1,3 +1,12 @@
+/**
+ * @file brick.cpp
+ * @authors Kendall Martinez Carvajal (kendallmc@estudiantec.cr) && Daniel Urena Lopez (dlurena24@estudiantec.cr)
+ * @brief
+ * Este codigo recibe las ordenes de wall para crear los bloques cada vez que game lo requiera
+ * @version 1.0
+ *
+ * @copyright Copyright (c) 2021
+ */
 #include "brick.hpp"
 #include "painter.hpp"
 #include "ball.hpp"
@@ -13,6 +22,11 @@ Brick::Brick(int col, int row, int id):
   dtcounter(0)
 {}
 
+/**
+ * @brief
+ * Este metodo dibuja cada brick segun su tipo y tambien los destruye segun las condiciones ideales
+ *
+ */
 void Brick::draw(Painter &p) const
 {
     if (countDownTimer_ == -1)
@@ -45,6 +59,11 @@ void Brick::draw(Painter &p) const
     }
 }
 
+/**
+ * @brief
+ * Este metodo establece parametros para cuando la bola rebota en los brick
+ *
+ */
 Force Brick::tick(const Ball &ball){
 
 
@@ -134,6 +153,11 @@ Force Brick::tick(const Ball &ball){
     return result;
 }
 
+/**
+ * @brief
+ * Este metodo "destruye" los brick cuando sea necesario
+ *
+ */
 void Brick::destroy()
 {
     if(id_ == 5){
@@ -149,25 +173,57 @@ void Brick::destroy()
     }
 
 }
+
+/**
+ * @brief
+ * Este metodo devuelve la variable id_
+ *
+ */
 int Brick::getId() {
     return id_;
 }
+
+/**
+ * @brief
+ * Este metodo devuelve la variable destroyed
+ *
+ */
 bool Brick::getDestroyed() {
     return destroyed;
 }
 
+/**
+ * @brief
+ * Este metodo devuelve la variable brk
+ *
+ */
 bool Brick::getBrk() {
     return brk;
 }
 
+/**
+ * @brief
+ * Este metodo modifica la variable brk
+ *
+ */
 bool Brick::setBrk(bool b) {
     brk = b;
 }
 
+/**
+ * @brief
+ * Este metodo devuelve la variable dtcounter
+ *
+ */
 int Brick::getDtcounter() {
     return dtcounter;
 }
 
+/**
+ * @brief
+ * Este metodo modifica la variable dtcounter
+ *
+ */
 int Brick::setDtcounter(int dtc) {
     dtcounter += dtc;
 }
