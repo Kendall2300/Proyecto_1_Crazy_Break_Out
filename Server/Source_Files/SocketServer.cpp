@@ -1,7 +1,22 @@
+/**
+ * @file SocketServer.cpp
+ * @authors Kendall Martinez Carvajal (kendallmc@estudiantec.cr) && Daniel Urena Lopez (dlurena24@estudiantec.cr)
+ * @brief
+ * Este codigo manipula los metodos creados por el header, para el socket del servidor.
+ *
+ * @version 1.0
+ *
+ * @copyright Copyright (c) 2021
+ */
 #include "SocketServer.h"
 
 SocketServer::SocketServer() {}
 
+/**
+ * @brief
+ * Este metodo crea el socket del servidor.
+ * @return
+ */
 bool SocketServer::create_socket(){
     descriptor = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP); 
     if(descriptor < 0){
@@ -15,7 +30,11 @@ bool SocketServer::create_socket(){
     return true;
 
 }
-
+/**
+ * @brief
+ * Este metodo se encarga de enlazar el kernell del dispositivo.
+ * @return boolean Un valor que define si se pulo enlazar correctamente el kernell
+ */
 bool SocketServer::bind_kernell(){
     if(bind(descriptor, (sockaddr *)&info, (socklen_t)sizeof(info)) < 0) {
         return false;
@@ -26,6 +45,12 @@ bool SocketServer::bind_kernell(){
 
 }
 
+/**
+ * @brief
+ * Este metodo se encarga de hacer funcionar al servidor asi como crear el socket y revisar la conexion con el kernell
+
+ *
+ */
 void SocketServer::run() {
     if(!create_socket())
         throw string("Error al crear el socket");
