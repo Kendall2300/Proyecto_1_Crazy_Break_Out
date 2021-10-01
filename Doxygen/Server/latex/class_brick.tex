@@ -1,0 +1,49 @@
+\hypertarget{class_brick}{}\doxysection{Brick Class Reference}
+\label{class_brick}\index{Brick@{Brick}}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_brick_a4e17697ccd66d6168af7c71993cda795}\label{class_brick_a4e17697ccd66d6168af7c71993cda795}} 
+enum \{ {\bfseries WIDTH} = 80
+, {\bfseries HEIGHT} = 32
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_brick_a1c1ac2aa0894fdf2325b854e4aa478b6}\label{class_brick_a1c1ac2aa0894fdf2325b854e4aa478b6}} 
+{\bfseries Brick} (int col, int row, int id)
+\item 
+\mbox{\Hypertarget{class_brick_a6a6bef533170c3de83e6b3676eb19e2d}\label{class_brick_a6a6bef533170c3de83e6b3676eb19e2d}} 
+void {\bfseries draw} (\mbox{\hyperlink{class_painter}{Painter}} \&) const
+\begin{DoxyCompactList}\small\item\em Este metodo dibuja cada brick segun su tipo y tambien los destruye segun las condiciones ideales. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_brick_a682a3243d22d5b1ce893c369908d731c}\label{class_brick_a682a3243d22d5b1ce893c369908d731c}} 
+void {\bfseries destroy} ()
+\begin{DoxyCompactList}\small\item\em Este metodo \char`\"{}destruye\char`\"{} los brick cuando sea necesario. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_brick_a2e6e6d9671122aa48a5cd642b93778d7}\label{class_brick_a2e6e6d9671122aa48a5cd642b93778d7}} 
+\mbox{\hyperlink{struct_force}{Force}} {\bfseries tick} (const \mbox{\hyperlink{class_ball}{Ball}} \&)
+\begin{DoxyCompactList}\small\item\em Este metodo establece parametros para cuando la bola rebota en los brick. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_brick_a00de206e507fd7a5c9d1f7e71a6d38c8}\label{class_brick_a00de206e507fd7a5c9d1f7e71a6d38c8}} 
+int {\bfseries get\+Id} ()
+\begin{DoxyCompactList}\small\item\em Este metodo devuelve la variable id\+\_\+. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_brick_a9f886019259f4a91ec8da9d78c18b81b}\label{class_brick_a9f886019259f4a91ec8da9d78c18b81b}} 
+bool {\bfseries get\+Destroyed} ()
+\begin{DoxyCompactList}\small\item\em Este metodo devuelve la variable destroyed. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_brick_a2ecbdfc53d66e043e8c53ce9db547567}\label{class_brick_a2ecbdfc53d66e043e8c53ce9db547567}} 
+bool {\bfseries get\+Brk} ()
+\begin{DoxyCompactList}\small\item\em Este metodo devuelve la variable brk. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_brick_ac44a1f0117b3a30e41fd6f5e6d59faec}\label{class_brick_ac44a1f0117b3a30e41fd6f5e6d59faec}} 
+bool {\bfseries set\+Brk} (bool b)
+\begin{DoxyCompactList}\small\item\em Este metodo modifica la variable brk. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_brick_adfedeb705471a18cf4eb5e21d723a87d}\label{class_brick_adfedeb705471a18cf4eb5e21d723a87d}} 
+int {\bfseries get\+Dtcounter} ()
+\begin{DoxyCompactList}\small\item\em Este metodo devuelve la variable dtcounter. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_brick_ac5372f58342dba78bd3491d161ce140f}\label{class_brick_ac5372f58342dba78bd3491d161ce140f}} 
+int {\bfseries set\+Dtcounter} (int dtc)
+\begin{DoxyCompactList}\small\item\em Este metodo modifica la variable dtcounter. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Server/\+Source\+\_\+\+Files/brick.\+hpp\item 
+Server/\+Source\+\_\+\+Files/\mbox{\hyperlink{brick_8cpp}{brick.\+cpp}}\end{DoxyCompactItemize}

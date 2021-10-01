@@ -1,0 +1,26 @@
+\hypertarget{game_8hpp_source}{}\doxysection{game.\+hpp}
+\label{game_8hpp_source}\index{Server/Source\_Files/game.hpp@{Server/Source\_Files/game.hpp}}
+\mbox{\hyperlink{game_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include "{}ball.hpp"{}}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include "{}wall.hpp"{}}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include "{}pedal.hpp"{}}}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{keyword}{class }\mbox{\hyperlink{class_game}{Game}}}
+\DoxyCodeLine{17 \{}
+\DoxyCodeLine{18 \textcolor{keyword}{public}:}
+\DoxyCodeLine{19   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a8f07e972ea9c25e51d2c200d173e551c}{draw}}(\mbox{\hyperlink{class_painter}{Painter}} \&) \textcolor{keyword}{const};}
+\DoxyCodeLine{20   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a074fd49963ad525ad7027eacdb87a5cb}{setX}}(\textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{21   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_adf1634a2d0c22f30f7c57e72fd2831bc}{tick}}();}
+\DoxyCodeLine{22 \textcolor{keyword}{private}:}
+\DoxyCodeLine{23   \mbox{\hyperlink{class_ball}{Ball}} ball\_;}
+\DoxyCodeLine{24   \mbox{\hyperlink{class_wall}{Wall}} wall\_;}
+\DoxyCodeLine{25   \mbox{\hyperlink{class_pedal}{Pedal}} pedal\_;}
+\DoxyCodeLine{26 \textcolor{keyword}{public}:}
+\DoxyCodeLine{27     \textcolor{keywordtype}{int} ballCounter = 5;}
+\DoxyCodeLine{28     \textcolor{keywordtype}{int} GScore=0;}
+\DoxyCodeLine{29 \};}
+
+\end{DoxyCode}

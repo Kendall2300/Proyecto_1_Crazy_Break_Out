@@ -1,0 +1,30 @@
+\hypertarget{ball_8hpp_source}{}\doxysection{ball.\+hpp}
+\label{ball_8hpp_source}\index{Server/Source\_Files/ball.hpp@{Server/Source\_Files/ball.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}force.hpp"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <time.h>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{ \#include <stdlib.h>}}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{keyword}{class }\mbox{\hyperlink{class_painter}{Painter}};}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18 \textcolor{keyword}{class }\mbox{\hyperlink{class_ball}{Ball}}}
+\DoxyCodeLine{19 \{}
+\DoxyCodeLine{20 \textcolor{keyword}{public}:}
+\DoxyCodeLine{21     \textcolor{keyword}{constexpr} \textcolor{keyword}{static} \textcolor{keyword}{const} \textcolor{keywordtype}{float} DT = 0.001;}
+\DoxyCodeLine{22     \mbox{\hyperlink{class_ball}{Ball}}();}
+\DoxyCodeLine{23     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ball_af342584a4f726f4ac055fd44e233f50f}{draw}}(\mbox{\hyperlink{class_painter}{Painter}} \&) \textcolor{keyword}{const};}
+\DoxyCodeLine{24     \textcolor{keywordtype}{float} x()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} x\_; \}}
+\DoxyCodeLine{25     \textcolor{keywordtype}{float} y()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} y\_; \}}
+\DoxyCodeLine{26     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ball_a55e070f768b70e232c927a518e9f7637}{tick}}(\mbox{\hyperlink{struct_force}{Force}});}
+\DoxyCodeLine{27     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ball_a2267e4feaaf4a2e66901e3de47f1d5ce}{surpRoller}}();}
+\DoxyCodeLine{28 \textcolor{keyword}{private}:}
+\DoxyCodeLine{29     \textcolor{keywordtype}{float} x\_;}
+\DoxyCodeLine{30     \textcolor{keywordtype}{float} y\_;}
+\DoxyCodeLine{31     \textcolor{keywordtype}{float} vx\_;}
+\DoxyCodeLine{32     \textcolor{keywordtype}{float} vy\_;}
+\DoxyCodeLine{33     \textcolor{keywordtype}{int} surpRand;}
+\DoxyCodeLine{34 \};}
+
+\end{DoxyCode}

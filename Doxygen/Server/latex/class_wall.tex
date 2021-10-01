@@ -1,0 +1,78 @@
+\hypertarget{class_wall}{}\doxysection{Wall Class Reference}
+\label{class_wall}\index{Wall@{Wall}}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_wall_a101058b0a737e0028d1ede51f3607f9d}\label{class_wall_a101058b0a737e0028d1ede51f3607f9d}} 
+enum \{ {\bfseries ROWS\+\_\+\+COUNT} = 16
+, {\bfseries COLS\+\_\+\+COUNT} = 8 $\ast$ 3
+ \}
+\item 
+\mbox{\Hypertarget{class_wall_a6cd04f77d1f5f3ae79654c577fcdfc7e}\label{class_wall_a6cd04f77d1f5f3ae79654c577fcdfc7e}} 
+enum \{ {\bfseries WIDTH} = ROWS\+\_\+\+COUNT $\ast$ Brick\+::WIDTH
+, {\bfseries HEIGHT} = COLS\+\_\+\+COUNT $\ast$ Brick\+::HEIGHT
+ \}
+\item 
+\mbox{\Hypertarget{class_wall_a4858ac7d10044103a238bdfe19009849}\label{class_wall_a4858ac7d10044103a238bdfe19009849}} 
+typedef std\+::vector$<$ \mbox{\hyperlink{class_brick}{Brick}} $>$ {\bfseries Bricks}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_wall_a4246f2f94b8e8beb25c8d35d26067914}\label{class_wall_a4246f2f94b8e8beb25c8d35d26067914}} 
+void {\bfseries draw} (\mbox{\hyperlink{class_painter}{Painter}} \&) const
+\item 
+\mbox{\Hypertarget{class_wall_ae7bc366f383e720f2b1f1c038b543025}\label{class_wall_ae7bc366f383e720f2b1f1c038b543025}} 
+\mbox{\hyperlink{struct_force}{Force}} {\bfseries tick} (const \mbox{\hyperlink{class_ball}{Ball}} \&)
+\item 
+\mbox{\Hypertarget{class_wall_a78efc48784b382b254379827e6812801}\label{class_wall_a78efc48784b382b254379827e6812801}} 
+bool {\bfseries get\+Its\+Surprise} ()
+\item 
+\mbox{\Hypertarget{class_wall_a5186cd799de76227a904a5b69a87c4c3}\label{class_wall_a5186cd799de76227a904a5b69a87c4c3}} 
+bool {\bfseries set\+Its\+Surprise} (bool b)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_wall_ab98979d06147f5ae3a36bed23e675591}\label{class_wall_ab98979d06147f5ae3a36bed23e675591}} 
+Bricks {\bfseries bricks\+\_\+}
+\item 
+\mbox{\Hypertarget{class_wall_a7905df805dc5ca67f2401058854201e3}\label{class_wall_a7905df805dc5ca67f2401058854201e3}} 
+int {\bfseries rand\+Numx}
+\item 
+\mbox{\Hypertarget{class_wall_a1c2c3f80b901aa46ddfef242682f2dff}\label{class_wall_a1c2c3f80b901aa46ddfef242682f2dff}} 
+int {\bfseries rand\+Numy}
+\item 
+\mbox{\Hypertarget{class_wall_aa24644bff91926b43b730836a49c4067}\label{class_wall_aa24644bff91926b43b730836a49c4067}} 
+int {\bfseries common\+Brick} = 1
+\item 
+\mbox{\Hypertarget{class_wall_a3e54063a37ca96c50135c90dfe4de140}\label{class_wall_a3e54063a37ca96c50135c90dfe4de140}} 
+int {\bfseries double\+Brick} = 2
+\item 
+\mbox{\Hypertarget{class_wall_ab14b2a024c5fd42296627e2c40f79b51}\label{class_wall_ab14b2a024c5fd42296627e2c40f79b51}} 
+int {\bfseries triple\+Brick} = 3
+\item 
+\mbox{\Hypertarget{class_wall_a770b7aa51e7e900089cfeebf020fc4e6}\label{class_wall_a770b7aa51e7e900089cfeebf020fc4e6}} 
+int {\bfseries in\+Brick} = 4
+\item 
+\mbox{\Hypertarget{class_wall_a5cc5aace4edfb2fd019dd2dee4724882}\label{class_wall_a5cc5aace4edfb2fd019dd2dee4724882}} 
+int {\bfseries deep\+Brick} = 5
+\item 
+\mbox{\Hypertarget{class_wall_abce12d1bcee8241f1b98eae29900bf61}\label{class_wall_abce12d1bcee8241f1b98eae29900bf61}} 
+int {\bfseries surprise\+Brick} = 6
+\item 
+\mbox{\Hypertarget{class_wall_a951c62b54f66f6d3ed40ab10c338fc3c}\label{class_wall_a951c62b54f66f6d3ed40ab10c338fc3c}} 
+int {\bfseries id\+\_\+}
+\item 
+\mbox{\Hypertarget{class_wall_ab91c3d3110555228b64a8cb411934e85}\label{class_wall_ab91c3d3110555228b64a8cb411934e85}} 
+int {\bfseries score} = 0
+\item 
+\mbox{\Hypertarget{class_wall_ababa60526f82e2bc11414bc4cf1f1151}\label{class_wall_ababa60526f82e2bc11414bc4cf1f1151}} 
+bool {\bfseries its\+Surprise} = false
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Server/\+Source\+\_\+\+Files/wall.\+hpp\item 
+Server/\+Source\+\_\+\+Files/wall.\+cpp\end{DoxyCompactItemize}
